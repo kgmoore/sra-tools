@@ -203,7 +203,8 @@ uint32_t get_field_width ( uint64_t num )
     for ( count = 0; num != 0; ++ count )
         num /= 10;
 
-    return count;
+    assert(count <= UINT32_MAX);
+    return (uint32_t)count;
 }
 
 static
@@ -916,7 +917,7 @@ rc_t kar_persist_karentry ( const KAREntry * entry, int type_code,
 static
 rc_t kar_persist_karfile ( const KARFile * entry, size_t *num_writ, PTWriteFunc write, void *write_param )
 {
-    size_t total_expected, total_written;
+    size_t total_expected = 0, total_written = 0;
     rc_t rc = kar_persist_karentry ( & entry -> dad,
                                      entry -> byte_size == 0 ? ktocentrytype_emptyfile : ktocentrytype_file,
                                      num_writ, write, write_param );
@@ -985,7 +986,7 @@ rc_t kar_persist_kardir ( const KARDir * entry, size_t *num_writ, PTWriteFunc wr
 static
 rc_t kar_persist_karalias ( const KARAlias *entry, size_t *num_writ, PTWriteFunc write, void *write_param )
 {
-    size_t total_expected, total_written;
+    size_t total_expected = 0, total_written = 0;
     rc_t rc = kar_persist_karentry ( & entry -> dad, ktocentrytype_softlink, num_writ, write, write_param );
     if ( rc == 0 )
     {
@@ -1482,10 +1483,11 @@ int64_t kar_alias_find_link ( const void *item, const BSTNode *node )
     const char *link = ( const char * ) item;
     KAREntry *entry = ( KAREntry * ) node;
     
-    uint64_t link_size = string_size ( link );
-    uint64_t name_size = string_size ( entry -> name );
+    size_t link_size = string_size ( link );
+    size_t name_size = string_size ( entry -> name );
 
-    return string_cmp ( item, link_size, entry -> name, name_size, link_size );
+    assert(link_size <= UINT32_MAX);
+    return string_cmp ( item, link_size, entry -> name, name_size, (uint32_t)link_size );
 }
 
 
