@@ -1,0 +1,840 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE83B73B249954C900F625B9 /* toolkit.vers.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B736249954C900F625B9 /* toolkit.vers.c */; };
+		BE83B73D249954C900F625B9 /* toolkit.vers.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B73A249954C900F625B9 /* toolkit.vers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE83B77F249959F600F625B9 /* log-xml.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B776249959F600F625B9 /* log-xml.h */; };
+		BE83B780249959F600F625B9 /* main.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B777249959F600F625B9 /* main.h */; };
+		BE83B781249959F600F625B9 /* args.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B778249959F600F625B9 /* args.h */; };
+		BE83B782249959F600F625B9 /* progressbar.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B779249959F600F625B9 /* progressbar.h */; };
+		BE83B783249959F600F625B9 /* extern.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B77A249959F600F625B9 /* extern.h */; };
+		BE83B784249959F600F625B9 /* args-conv.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B77B249959F600F625B9 /* args-conv.h */; };
+		BE83B785249959F600F625B9 /* loader-file.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B77C249959F600F625B9 /* loader-file.h */; };
+		BE83B786249959F600F625B9 /* loader-meta.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B77D249959F600F625B9 /* loader-meta.h */; };
+		BE83B787249959F600F625B9 /* queue-file.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B77E249959F600F625B9 /* queue-file.h */; };
+		BE83B79B24995CCB00F625B9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B78A24995CCB00F625B9 /* main.c */; };
+		BE83B79E24995CCB00F625B9 /* args-conv.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B78D24995CCB00F625B9 /* args-conv.c */; };
+		BE83B79F24995CCB00F625B9 /* tokenizer.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B78E24995CCB00F625B9 /* tokenizer.c */; };
+		BE83B7A324995CCB00F625B9 /* main-priv.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B79424995CCB00F625B9 /* main-priv.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BE83B7A524995CCB00F625B9 /* args.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B79624995CCB00F625B9 /* args.c */; };
+		BE83B7A724995CCB00F625B9 /* log-xml.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B79824995CCB00F625B9 /* log-xml.c */; };
+		BE83B7A824995CCB00F625B9 /* args_debug.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B79924995CCB00F625B9 /* args_debug.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		BE83B7AC24995CF500F625B9 /* sysmain.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7AA24995CF500F625B9 /* sysmain.c */; };
+		BE83B7AD24995CF500F625B9 /* args-conv-os.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7AB24995CF500F625B9 /* args-conv-os.c */; };
+		BE83B7AF24995D0000F625B9 /* ram.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7AE24995CFF00F625B9 /* ram.c */; };
+		BE83B7BD249A846700F625B9 /* text.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7BA249A846700F625B9 /* text.c */; };
+		BE83B7BE249A846700F625B9 /* time.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7BB249A846700F625B9 /* time.c */; };
+		BE83B7BF249A846700F625B9 /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7BC249A846700F625B9 /* utf8.c */; };
+		BE83B7C2249A847C00F625B9 /* iso8859.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7C0249A847C00F625B9 /* iso8859.c */; };
+		BE83B7C3249A847C00F625B9 /* iso8859-1.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7C1249A847C00F625B9 /* iso8859-1.c */; };
+		BE83B7C5249A848A00F625B9 /* cp1252.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7C4249A848A00F625B9 /* cp1252.c */; };
+		BE83B7C8249A84A000F625B9 /* symtab.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7C6249A84A000F625B9 /* symtab.c */; };
+		BE83B7C9249A84A000F625B9 /* token.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7C7249A84A000F625B9 /* token.c */; };
+		BE83B7CD249A84D200F625B9 /* container.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7CA249A84D200F625B9 /* container.c */; };
+		BE83B7CE249A84D200F625B9 /* vector.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7CB249A84D200F625B9 /* vector.c */; };
+		BE83B7CF249A84D200F625B9 /* namelist.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7CC249A84D200F625B9 /* namelist.c */; };
+		BE83B7D3249A850700F625B9 /* trie.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7D0249A850700F625B9 /* trie.c */; };
+		BE83B7D4249A850700F625B9 /* vector_namelist.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7D1249A850700F625B9 /* vector_namelist.c */; };
+		BE83B7D5249A850700F625B9 /* all-vdb-version.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7D2249A850700F625B9 /* all-vdb-version.c */; };
+		BE83B7D7249A85AE00F625B9 /* pbstree.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7D6249A85AE00F625B9 /* pbstree.c */; };
+		BE83B7E6249A86A700F625B9 /* libncbi-vdb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE83B7272499538200F625B9 /* libncbi-vdb.a */; };
+		BE83B7E7249A86A700F625B9 /* libtk-version.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE83B7312499545B00F625B9 /* libtk-version.a */; };
+		BE83B7E8249A86A700F625B9 /* libkapp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BE83B743249956D400F625B9 /* libkapp.a */; };
+		BE83B7ED249A86EA00F625B9 /* kar-args.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7EA249A86E900F625B9 /* kar-args.c */; };
+		BE83B7EE249A86EA00F625B9 /* kar.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7EB249A86E900F625B9 /* kar.c */; };
+		BE83B7EF249A86EA00F625B9 /* kar-path.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7EC249A86E900F625B9 /* kar-path.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BE83B7DC249A868D00F625B9 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BE83B7272499538200F625B9 /* libncbi-vdb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libncbi-vdb.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE83B7312499545B00F625B9 /* libtk-version.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libtk-version.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE83B736249954C900F625B9 /* toolkit.vers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = toolkit.vers.c; sourceTree = "<group>"; };
+		BE83B737249954C900F625B9 /* kfgsums */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = kfgsums; sourceTree = "<group>"; };
+		BE83B738249954C900F625B9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		BE83B739249954C900F625B9 /* toolkit.vers */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = toolkit.vers; sourceTree = "<group>"; };
+		BE83B73A249954C900F625B9 /* toolkit.vers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = toolkit.vers.h; sourceTree = "<group>"; };
+		BE83B743249956D400F625B9 /* libkapp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libkapp.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE83B776249959F600F625B9 /* log-xml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "log-xml.h"; sourceTree = "<group>"; };
+		BE83B777249959F600F625B9 /* main.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = main.h; sourceTree = "<group>"; };
+		BE83B778249959F600F625B9 /* args.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = args.h; sourceTree = "<group>"; };
+		BE83B779249959F600F625B9 /* progressbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = progressbar.h; sourceTree = "<group>"; };
+		BE83B77A249959F600F625B9 /* extern.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = extern.h; sourceTree = "<group>"; };
+		BE83B77B249959F600F625B9 /* args-conv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "args-conv.h"; sourceTree = "<group>"; };
+		BE83B77C249959F600F625B9 /* loader-file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "loader-file.h"; sourceTree = "<group>"; };
+		BE83B77D249959F600F625B9 /* loader-meta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "loader-meta.h"; sourceTree = "<group>"; };
+		BE83B77E249959F600F625B9 /* queue-file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "queue-file.h"; sourceTree = "<group>"; };
+		BE83B78A24995CCB00F625B9 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = main.c; path = libs/kapp/main.c; sourceTree = "<group>"; };
+		BE83B78B24995CCB00F625B9 /* progressbar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = progressbar.c; path = libs/kapp/progressbar.c; sourceTree = "<group>"; };
+		BE83B78C24995CCB00F625B9 /* loader-file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "loader-file.c"; path = "libs/kapp/loader-file.c"; sourceTree = "<group>"; };
+		BE83B78D24995CCB00F625B9 /* args-conv.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "args-conv.c"; path = "libs/kapp/args-conv.c"; sourceTree = "<group>"; };
+		BE83B78E24995CCB00F625B9 /* tokenizer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tokenizer.c; path = libs/kapp/tokenizer.c; sourceTree = "<group>"; };
+		BE83B79424995CCB00F625B9 /* main-priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "main-priv.h"; path = "libs/kapp/main-priv.h"; sourceTree = "<group>"; };
+		BE83B79524995CCB00F625B9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/kapp/Makefile; sourceTree = "<group>"; };
+		BE83B79624995CCB00F625B9 /* args.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = args.c; path = libs/kapp/args.c; sourceTree = "<group>"; };
+		BE83B79724995CCB00F625B9 /* loader-meta.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "loader-meta.c"; path = "libs/kapp/loader-meta.c"; sourceTree = "<group>"; };
+		BE83B79824995CCB00F625B9 /* log-xml.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "log-xml.c"; path = "libs/kapp/log-xml.c"; sourceTree = "<group>"; };
+		BE83B79924995CCB00F625B9 /* args_debug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = args_debug.h; path = libs/kapp/args_debug.h; sourceTree = "<group>"; };
+		BE83B79A24995CCB00F625B9 /* queue-file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "queue-file.c"; path = "libs/kapp/queue-file.c"; sourceTree = "<group>"; };
+		BE83B7AA24995CF500F625B9 /* sysmain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysmain.c; path = libs/kapp/unix/sysmain.c; sourceTree = "<group>"; };
+		BE83B7AB24995CF500F625B9 /* args-conv-os.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "args-conv-os.c"; path = "libs/kapp/unix/args-conv-os.c"; sourceTree = "<group>"; };
+		BE83B7AE24995CFF00F625B9 /* ram.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ram.c; path = libs/kapp/mac/ram.c; sourceTree = "<group>"; };
+		BE83B7B124995DDC00F625B9 /* os-native.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "os-native.h"; path = "os/mac/os-native.h"; sourceTree = "<group>"; };
+		BE83B7B224995DDC00F625B9 /* endian.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = endian.h; path = os/mac/endian.h; sourceTree = "<group>"; };
+		BE83B7B324995DDC00F625B9 /* byteswap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = byteswap.h; path = os/mac/byteswap.h; sourceTree = "<group>"; };
+		BE83B7B424995DE900F625B9 /* oserror.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = oserror.h; path = os/unix/oserror.h; sourceTree = "<group>"; };
+		BE83B7B524995DE900F625B9 /* unix-native.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "unix-native.h"; path = "os/unix/unix-native.h"; sourceTree = "<group>"; };
+		BE83B7B624995DE900F625B9 /* sysalloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = sysalloc.h; path = os/unix/sysalloc.h; sourceTree = "<group>"; };
+		BE83B7B9249A7C1400F625B9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/klib/Makefile; sourceTree = "<group>"; };
+		BE83B7BA249A846700F625B9 /* text.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = text.c; path = libs/klib/text.c; sourceTree = "<group>"; };
+		BE83B7BB249A846700F625B9 /* time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = time.c; path = libs/klib/time.c; sourceTree = "<group>"; };
+		BE83B7BC249A846700F625B9 /* utf8.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = utf8.c; path = libs/klib/utf8.c; sourceTree = "<group>"; };
+		BE83B7C0249A847C00F625B9 /* iso8859.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = iso8859.c; path = libs/klib/iso8859.c; sourceTree = "<group>"; };
+		BE83B7C1249A847C00F625B9 /* iso8859-1.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "iso8859-1.c"; path = "libs/klib/iso8859-1.c"; sourceTree = "<group>"; };
+		BE83B7C4249A848A00F625B9 /* cp1252.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cp1252.c; path = libs/klib/cp1252.c; sourceTree = "<group>"; };
+		BE83B7C6249A84A000F625B9 /* symtab.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = symtab.c; path = libs/klib/symtab.c; sourceTree = "<group>"; };
+		BE83B7C7249A84A000F625B9 /* token.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = token.c; path = libs/klib/token.c; sourceTree = "<group>"; };
+		BE83B7CA249A84D200F625B9 /* container.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = container.c; path = libs/klib/container.c; sourceTree = "<group>"; };
+		BE83B7CB249A84D200F625B9 /* vector.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vector.c; path = libs/klib/vector.c; sourceTree = "<group>"; };
+		BE83B7CC249A84D200F625B9 /* namelist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = namelist.c; path = libs/klib/namelist.c; sourceTree = "<group>"; };
+		BE83B7D0249A850700F625B9 /* trie.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = trie.c; path = libs/klib/trie.c; sourceTree = "<group>"; };
+		BE83B7D1249A850700F625B9 /* vector_namelist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = vector_namelist.c; path = libs/klib/vector_namelist.c; sourceTree = "<group>"; };
+		BE83B7D2249A850700F625B9 /* all-vdb-version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "all-vdb-version.c"; path = "libs/klib/all-vdb-version.c"; sourceTree = "<group>"; };
+		BE83B7D6249A85AE00F625B9 /* pbstree.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pbstree.c; path = libs/klib/pbstree.c; sourceTree = "<group>"; };
+		BE83B7DE249A868D00F625B9 /* kar */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = kar; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE83B7E9249A86C400F625B9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		BE83B7EA249A86E900F625B9 /* kar-args.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "kar-args.c"; sourceTree = "<group>"; };
+		BE83B7EB249A86E900F625B9 /* kar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kar.c; sourceTree = "<group>"; };
+		BE83B7EC249A86E900F625B9 /* kar-path.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "kar-path.c"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE83B7252499538200F625B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83B72F2499545B00F625B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83B741249956D400F625B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83B7DB249A868D00F625B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE83B7E6249A86A700F625B9 /* libncbi-vdb.a in Frameworks */,
+				BE83B7E7249A86A700F625B9 /* libtk-version.a in Frameworks */,
+				BE83B7E8249A86A700F625B9 /* libkapp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE83B710249952E900F625B9 = {
+			isa = PBXGroup;
+			children = (
+				BE83B7722499584F00F625B9 /* ncbi-vdb */,
+				BE83B71B249952E900F625B9 /* sra-tools */,
+				BE83B71A249952E900F625B9 /* Products */,
+				BE83B7E5249A86A700F625B9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BE83B71A249952E900F625B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B7272499538200F625B9 /* libncbi-vdb.a */,
+				BE83B7312499545B00F625B9 /* libtk-version.a */,
+				BE83B743249956D400F625B9 /* libkapp.a */,
+				BE83B7DE249A868D00F625B9 /* kar */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE83B71B249952E900F625B9 /* sra-tools */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B7D8249A865900F625B9 /* tools */,
+				BE83B7352499549000F625B9 /* shared */,
+			);
+			name = "sra-tools";
+			path = ../../..;
+			sourceTree = SOURCE_ROOT;
+		};
+		BE83B7352499549000F625B9 /* shared */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B737249954C900F625B9 /* kfgsums */,
+				BE83B738249954C900F625B9 /* Makefile */,
+				BE83B739249954C900F625B9 /* toolkit.vers */,
+				BE83B736249954C900F625B9 /* toolkit.vers.c */,
+				BE83B73A249954C900F625B9 /* toolkit.vers.h */,
+			);
+			path = shared;
+			sourceTree = "<group>";
+		};
+		BE83B7722499584F00F625B9 /* ncbi-vdb */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B78824995C8E00F625B9 /* libs */,
+				BE83B7732499586700F625B9 /* interfaces */,
+			);
+			name = "ncbi-vdb";
+			path = "../../../../ncbi-vdb";
+			sourceTree = "<group>";
+		};
+		BE83B7732499586700F625B9 /* interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B7B024995DC700F625B9 /* os */,
+				BE83B775249958D900F625B9 /* kapp */,
+			);
+			name = interfaces;
+			path = "../../../../ncbi-vdb/interfaces";
+			sourceTree = SOURCE_ROOT;
+		};
+		BE83B775249958D900F625B9 /* kapp */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B77B249959F600F625B9 /* args-conv.h */,
+				BE83B778249959F600F625B9 /* args.h */,
+				BE83B77A249959F600F625B9 /* extern.h */,
+				BE83B77C249959F600F625B9 /* loader-file.h */,
+				BE83B77D249959F600F625B9 /* loader-meta.h */,
+				BE83B776249959F600F625B9 /* log-xml.h */,
+				BE83B777249959F600F625B9 /* main.h */,
+				BE83B779249959F600F625B9 /* progressbar.h */,
+				BE83B77E249959F600F625B9 /* queue-file.h */,
+			);
+			name = kapp;
+			sourceTree = "<group>";
+		};
+		BE83B78824995C8E00F625B9 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B7B8249A7C0100F625B9 /* klib */,
+				BE83B78924995CBA00F625B9 /* kapp */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		BE83B78924995CBA00F625B9 /* kapp */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B78A24995CCB00F625B9 /* main.c */,
+				BE83B79624995CCB00F625B9 /* args.c */,
+				BE83B78D24995CCB00F625B9 /* args-conv.c */,
+				BE83B7AB24995CF500F625B9 /* args-conv-os.c */,
+				BE83B78E24995CCB00F625B9 /* tokenizer.c */,
+				BE83B7AA24995CF500F625B9 /* sysmain.c */,
+				BE83B7AE24995CFF00F625B9 /* ram.c */,
+				BE83B79824995CCB00F625B9 /* log-xml.c */,
+				BE83B79524995CCB00F625B9 /* Makefile */,
+				BE83B79924995CCB00F625B9 /* args_debug.h */,
+				BE83B79424995CCB00F625B9 /* main-priv.h */,
+				BE83B78B24995CCB00F625B9 /* progressbar.c */,
+				BE83B78C24995CCB00F625B9 /* loader-file.c */,
+				BE83B79724995CCB00F625B9 /* loader-meta.c */,
+				BE83B79A24995CCB00F625B9 /* queue-file.c */,
+			);
+			name = kapp;
+			sourceTree = "<group>";
+		};
+		BE83B7B024995DC700F625B9 /* os */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B7B424995DE900F625B9 /* oserror.h */,
+				BE83B7B624995DE900F625B9 /* sysalloc.h */,
+				BE83B7B524995DE900F625B9 /* unix-native.h */,
+				BE83B7B324995DDC00F625B9 /* byteswap.h */,
+				BE83B7B224995DDC00F625B9 /* endian.h */,
+				BE83B7B124995DDC00F625B9 /* os-native.h */,
+			);
+			name = os;
+			sourceTree = "<group>";
+		};
+		BE83B7B8249A7C0100F625B9 /* klib */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B7D6249A85AE00F625B9 /* pbstree.c */,
+				BE83B7D2249A850700F625B9 /* all-vdb-version.c */,
+				BE83B7D0249A850700F625B9 /* trie.c */,
+				BE83B7D1249A850700F625B9 /* vector_namelist.c */,
+				BE83B7CA249A84D200F625B9 /* container.c */,
+				BE83B7CC249A84D200F625B9 /* namelist.c */,
+				BE83B7CB249A84D200F625B9 /* vector.c */,
+				BE83B7C6249A84A000F625B9 /* symtab.c */,
+				BE83B7C7249A84A000F625B9 /* token.c */,
+				BE83B7C4249A848A00F625B9 /* cp1252.c */,
+				BE83B7C1249A847C00F625B9 /* iso8859-1.c */,
+				BE83B7C0249A847C00F625B9 /* iso8859.c */,
+				BE83B7BA249A846700F625B9 /* text.c */,
+				BE83B7BB249A846700F625B9 /* time.c */,
+				BE83B7BC249A846700F625B9 /* utf8.c */,
+				BE83B7B9249A7C1400F625B9 /* Makefile */,
+			);
+			name = klib;
+			sourceTree = "<group>";
+		};
+		BE83B7D8249A865900F625B9 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B7D9249A866300F625B9 /* kar */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		BE83B7D9249A866300F625B9 /* kar */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B7EA249A86E900F625B9 /* kar-args.c */,
+				BE83B7EC249A86E900F625B9 /* kar-path.c */,
+				BE83B7EB249A86E900F625B9 /* kar.c */,
+				BE83B7E9249A86C400F625B9 /* Makefile */,
+			);
+			path = kar;
+			sourceTree = "<group>";
+		};
+		BE83B7E5249A86A700F625B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		BE83B7232499538200F625B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83B72D2499545B00F625B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE83B73D249954C900F625B9 /* toolkit.vers.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83B73F249956D400F625B9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE83B781249959F600F625B9 /* args.h in Headers */,
+				BE83B784249959F600F625B9 /* args-conv.h in Headers */,
+				BE83B7A824995CCB00F625B9 /* args_debug.h in Headers */,
+				BE83B7A324995CCB00F625B9 /* main-priv.h in Headers */,
+				BE83B782249959F600F625B9 /* progressbar.h in Headers */,
+				BE83B77F249959F600F625B9 /* log-xml.h in Headers */,
+				BE83B780249959F600F625B9 /* main.h in Headers */,
+				BE83B783249959F600F625B9 /* extern.h in Headers */,
+				BE83B786249959F600F625B9 /* loader-meta.h in Headers */,
+				BE83B785249959F600F625B9 /* loader-file.h in Headers */,
+				BE83B787249959F600F625B9 /* queue-file.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BE83B7262499538200F625B9 /* ncbi-vdb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE83B7282499538200F625B9 /* Build configuration list for PBXNativeTarget "ncbi-vdb" */;
+			buildPhases = (
+				BE83B7232499538200F625B9 /* Headers */,
+				BE83B7242499538200F625B9 /* Sources */,
+				BE83B7252499538200F625B9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ncbi-vdb";
+			productName = "ncbi-vdb";
+			productReference = BE83B7272499538200F625B9 /* libncbi-vdb.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BE83B7302499545B00F625B9 /* tk-version */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE83B7322499545B00F625B9 /* Build configuration list for PBXNativeTarget "tk-version" */;
+			buildPhases = (
+				BE83B72D2499545B00F625B9 /* Headers */,
+				BE83B72E2499545B00F625B9 /* Sources */,
+				BE83B72F2499545B00F625B9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tk-version";
+			productName = "tk-version";
+			productReference = BE83B7312499545B00F625B9 /* libtk-version.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BE83B742249956D400F625B9 /* kapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE83B744249956D400F625B9 /* Build configuration list for PBXNativeTarget "kapp" */;
+			buildPhases = (
+				BE83B73F249956D400F625B9 /* Headers */,
+				BE83B740249956D400F625B9 /* Sources */,
+				BE83B741249956D400F625B9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kapp;
+			productName = kapp;
+			productReference = BE83B743249956D400F625B9 /* libkapp.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BE83B7DD249A868D00F625B9 /* kar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE83B7E2249A868D00F625B9 /* Build configuration list for PBXNativeTarget "kar" */;
+			buildPhases = (
+				BE83B7DA249A868D00F625B9 /* Sources */,
+				BE83B7DB249A868D00F625B9 /* Frameworks */,
+				BE83B7DC249A868D00F625B9 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kar;
+			productName = kar;
+			productReference = BE83B7DE249A868D00F625B9 /* kar */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE83B711249952E900F625B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = NCBI/NLM/NIH;
+				TargetAttributes = {
+					BE83B7262499538200F625B9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BE83B7302499545B00F625B9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BE83B742249956D400F625B9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BE83B7DD249A868D00F625B9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = BE83B714249952E900F625B9 /* Build configuration list for PBXProject "sratoolkit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE83B710249952E900F625B9;
+			productRefGroup = BE83B71A249952E900F625B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE83B7262499538200F625B9 /* ncbi-vdb */,
+				BE83B7302499545B00F625B9 /* tk-version */,
+				BE83B742249956D400F625B9 /* kapp */,
+				BE83B7DD249A868D00F625B9 /* kar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE83B7242499538200F625B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE83B7BF249A846700F625B9 /* utf8.c in Sources */,
+				BE83B7C9249A84A000F625B9 /* token.c in Sources */,
+				BE83B7CF249A84D200F625B9 /* namelist.c in Sources */,
+				BE83B7BE249A846700F625B9 /* time.c in Sources */,
+				BE83B7CD249A84D200F625B9 /* container.c in Sources */,
+				BE83B7C5249A848A00F625B9 /* cp1252.c in Sources */,
+				BE83B7D4249A850700F625B9 /* vector_namelist.c in Sources */,
+				BE83B7D5249A850700F625B9 /* all-vdb-version.c in Sources */,
+				BE83B7D7249A85AE00F625B9 /* pbstree.c in Sources */,
+				BE83B7BD249A846700F625B9 /* text.c in Sources */,
+				BE83B7D3249A850700F625B9 /* trie.c in Sources */,
+				BE83B7C8249A84A000F625B9 /* symtab.c in Sources */,
+				BE83B7C2249A847C00F625B9 /* iso8859.c in Sources */,
+				BE83B7CE249A84D200F625B9 /* vector.c in Sources */,
+				BE83B7C3249A847C00F625B9 /* iso8859-1.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83B72E2499545B00F625B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE83B73B249954C900F625B9 /* toolkit.vers.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83B740249956D400F625B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE83B7A524995CCB00F625B9 /* args.c in Sources */,
+				BE83B79E24995CCB00F625B9 /* args-conv.c in Sources */,
+				BE83B79F24995CCB00F625B9 /* tokenizer.c in Sources */,
+				BE83B79B24995CCB00F625B9 /* main.c in Sources */,
+				BE83B7AF24995D0000F625B9 /* ram.c in Sources */,
+				BE83B7A724995CCB00F625B9 /* log-xml.c in Sources */,
+				BE83B7AD24995CF500F625B9 /* args-conv-os.c in Sources */,
+				BE83B7AC24995CF500F625B9 /* sysmain.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE83B7DA249A868D00F625B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE83B7EE249A86EA00F625B9 /* kar.c in Sources */,
+				BE83B7ED249A86EA00F625B9 /* kar-args.c in Sources */,
+				BE83B7EF249A86EA00F625B9 /* kar-path.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BE83B71E249952E900F625B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NO_KRSRC=1",
+					"PKGNAME=mac64",
+					_DEBUGGING,
+					MAC,
+					BSD,
+					UNIX,
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"../../../../ncbi-vdb/interfaces/override",
+					"../../../../ncbi-vdb/libs/klib/mac",
+					"../../../../ncbi-vdb/libs/klib/bsd",
+					"../../../../ncbi-vdb/libs/klib/unix",
+					"../../../../ncbi-vdb/libs/klib",
+					"../../../../ncbi-vdb/interfaces",
+					"../../../../ncbi-vdb/interfaces/cc/clang/x86_64",
+					"../../../../ncbi-vdb/interfaces/cc/clang",
+					"../../../../ncbi-vdb/interfaces/cc/gcc/x86_64",
+					"../../../../ncbi-vdb/interfaces/cc/gcc",
+					"../../../../ncbi-vdb/interfaces/os/mac",
+					"../../../../ncbi-vdb/interfaces/os/bsd",
+					"../../../../ncbi-vdb/interfaces/os/unix",
+					"../../../../ncbi-vdb/interfaces/ext",
+					.,
+				);
+			};
+			name = Debug;
+		};
+		BE83B71F249952E900F625B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NO_KRSRC=1",
+					"PKGNAME=mac64",
+					MAC,
+					BSD,
+					UNIX,
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = (
+					"../../../../ncbi-vdb/interfaces/override",
+					"../../../../ncbi-vdb/libs/klib/mac",
+					"../../../../ncbi-vdb/libs/klib/bsd",
+					"../../../../ncbi-vdb/libs/klib/unix",
+					"../../../../ncbi-vdb/libs/klib",
+					"../../../../ncbi-vdb/interfaces",
+					"../../../../ncbi-vdb/interfaces/cc/clang/x86_64",
+					"../../../../ncbi-vdb/interfaces/cc/clang",
+					"../../../../ncbi-vdb/interfaces/cc/gcc/x86_64",
+					"../../../../ncbi-vdb/interfaces/cc/gcc",
+					"../../../../ncbi-vdb/interfaces/os/mac",
+					"../../../../ncbi-vdb/interfaces/os/bsd",
+					"../../../../ncbi-vdb/interfaces/os/unix",
+					"../../../../ncbi-vdb/interfaces/ext",
+					.,
+				);
+			};
+			name = Release;
+		};
+		BE83B7292499538200F625B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE83B72A2499538200F625B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BE83B7332499545B00F625B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE83B7342499545B00F625B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BE83B745249956D400F625B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		BE83B746249956D400F625B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_STYLE = Automatic;
+				EXECUTABLE_PREFIX = lib;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		BE83B7E3249A868D00F625B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BE83B7E4249A868D00F625B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CODE_SIGN_STYLE = Automatic;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE83B714249952E900F625B9 /* Build configuration list for PBXProject "sratoolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE83B71E249952E900F625B9 /* Debug */,
+				BE83B71F249952E900F625B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE83B7282499538200F625B9 /* Build configuration list for PBXNativeTarget "ncbi-vdb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE83B7292499538200F625B9 /* Debug */,
+				BE83B72A2499538200F625B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE83B7322499545B00F625B9 /* Build configuration list for PBXNativeTarget "tk-version" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE83B7332499545B00F625B9 /* Debug */,
+				BE83B7342499545B00F625B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE83B744249956D400F625B9 /* Build configuration list for PBXNativeTarget "kapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE83B745249956D400F625B9 /* Debug */,
+				BE83B746249956D400F625B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE83B7E2249A868D00F625B9 /* Build configuration list for PBXNativeTarget "kar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE83B7E3249A868D00F625B9 /* Debug */,
+				BE83B7E4249A868D00F625B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE83B711249952E900F625B9 /* Project object */;
+}
