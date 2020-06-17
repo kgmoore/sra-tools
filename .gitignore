@@ -23,7 +23,7 @@
 /.pydevproject
 *.stash
 tmp.kfg
-*/xcuserdata/*
+**/xcuserdata/*
 .vscode
 .gdb_history
 .vs
