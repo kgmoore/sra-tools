@@ -49,6 +49,32 @@
 		BE83B7ED249A86EA00F625B9 /* kar-args.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7EA249A86E900F625B9 /* kar-args.c */; };
 		BE83B7EE249A86EA00F625B9 /* kar.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7EB249A86E900F625B9 /* kar.c */; };
 		BE83B7EF249A86EA00F625B9 /* kar-path.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7EC249A86E900F625B9 /* kar-path.c */; };
+		BE83B7F3249A9B9600F625B9 /* bstpersist.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7F2249A9B9600F625B9 /* bstpersist.c */; };
+		BE83B7F5249A9CB400F625B9 /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7F4249A9CB400F625B9 /* writer.c */; };
+		BE83B7F7249A9D1E00F625B9 /* debug.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7F6249A9D1E00F625B9 /* debug.c */; };
+		BE83B7F9249A9D7800F625B9 /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7F8249A9D7800F625B9 /* log.c */; };
+		BE83B7FB249A9DB100F625B9 /* out.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7FA249A9DB100F625B9 /* out.c */; };
+		BE83B7FD249A9DDE00F625B9 /* status.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7FC249A9DDE00F625B9 /* status.c */; };
+		BE83B7FF249A9E3700F625B9 /* syswriter.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B7FE249A9E3700F625B9 /* syswriter.c */; };
+		BE83B802249A9F4400F625B9 /* pbstree-native.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B800249A9F4400F625B9 /* pbstree-native.c */; };
+		BE83B803249A9F4400F625B9 /* pbstree-swapped.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B801249A9F4400F625B9 /* pbstree-swapped.c */; };
+		BE83B806249AA0F300F625B9 /* status-rc-strings.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B804249AA0F300F625B9 /* status-rc-strings.c */; };
+		BE83B807249AA0F300F625B9 /* status-rc.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B805249AA0F300F625B9 /* status-rc.c */; };
+		BE83B80A249AA16000F625B9 /* rc-tbl.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B808249AA16000F625B9 /* rc-tbl.c */; };
+		BE83B80B249AA16000F625B9 /* rc-idx-tbl.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B809249AA16000F625B9 /* rc-idx-tbl.c */; };
+		BE83B80D249AA19800F625B9 /* sra-release-version.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B80C249AA19800F625B9 /* sra-release-version.c */; };
+		BE83B80F249AA1EB00F625B9 /* bsearch.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B80E249AA1EA00F625B9 /* bsearch.c */; };
+		BE83B811249AA21900F625B9 /* ksort.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B810249AA21900F625B9 /* ksort.c */; };
+		BE83B813249AA26500F625B9 /* qsort.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B812249AA26500F625B9 /* qsort.c */; };
+		BE83B815249AA37700F625B9 /* printf.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B814249AA37700F625B9 /* printf.c */; };
+		BE83B817249AA3B300F625B9 /* syslog.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B816249AA3B300F625B9 /* syslog.c */; };
+		BE83B819249AA42200F625B9 /* systime.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B818249AA42200F625B9 /* systime.c */; };
+		BE83B81B249AA45B00F625B9 /* syserrcode.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B81A249AA45B00F625B9 /* syserrcode.c */; };
+		BE83B81D249AA49100F625B9 /* report-klib.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B81C249AA49100F625B9 /* report-klib.c */; };
+		BE83B81F249AA4D100F625B9 /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B81E249AA4D000F625B9 /* misc.c */; };
+		BE83B821249AA4F700F625B9 /* data-buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B820249AA4F700F625B9 /* data-buffer.c */; };
+		BE83B825249AA59700F625B9 /* directory.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B824249AA59700F625B9 /* directory.c */; };
+		BE83B827249AA5DB00F625B9 /* sysdir.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B826249AA5DB00F625B9 /* sysdir.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -123,6 +149,33 @@
 		BE83B7EA249A86E900F625B9 /* kar-args.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "kar-args.c"; sourceTree = "<group>"; };
 		BE83B7EB249A86E900F625B9 /* kar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kar.c; sourceTree = "<group>"; };
 		BE83B7EC249A86E900F625B9 /* kar-path.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "kar-path.c"; sourceTree = "<group>"; };
+		BE83B7F2249A9B9600F625B9 /* bstpersist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bstpersist.c; path = libs/klib/bstpersist.c; sourceTree = "<group>"; };
+		BE83B7F4249A9CB400F625B9 /* writer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = writer.c; path = libs/klib/writer.c; sourceTree = "<group>"; };
+		BE83B7F6249A9D1E00F625B9 /* debug.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = debug.c; path = libs/klib/debug.c; sourceTree = "<group>"; };
+		BE83B7F8249A9D7800F625B9 /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = log.c; path = libs/klib/log.c; sourceTree = "<group>"; };
+		BE83B7FA249A9DB100F625B9 /* out.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = out.c; path = libs/klib/out.c; sourceTree = "<group>"; };
+		BE83B7FC249A9DDE00F625B9 /* status.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = status.c; path = libs/klib/status.c; sourceTree = "<group>"; };
+		BE83B7FE249A9E3700F625B9 /* syswriter.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syswriter.c; path = libs/klib/unix/syswriter.c; sourceTree = "<group>"; };
+		BE83B800249A9F4400F625B9 /* pbstree-native.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "pbstree-native.c"; path = "libs/klib/pbstree-native.c"; sourceTree = "<group>"; };
+		BE83B801249A9F4400F625B9 /* pbstree-swapped.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "pbstree-swapped.c"; path = "libs/klib/pbstree-swapped.c"; sourceTree = "<group>"; };
+		BE83B804249AA0F300F625B9 /* status-rc-strings.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "status-rc-strings.c"; path = "libs/klib/status-rc-strings.c"; sourceTree = "<group>"; };
+		BE83B805249AA0F300F625B9 /* status-rc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "status-rc.c"; path = "libs/klib/status-rc.c"; sourceTree = "<group>"; };
+		BE83B808249AA16000F625B9 /* rc-tbl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "rc-tbl.c"; path = "libs/klib/rc-tbl.c"; sourceTree = "<group>"; };
+		BE83B809249AA16000F625B9 /* rc-idx-tbl.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "rc-idx-tbl.c"; path = "libs/klib/rc-idx-tbl.c"; sourceTree = "<group>"; };
+		BE83B80C249AA19800F625B9 /* sra-release-version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "sra-release-version.c"; path = "libs/klib/sra-release-version.c"; sourceTree = "<group>"; };
+		BE83B80E249AA1EA00F625B9 /* bsearch.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bsearch.c; path = libs/klib/bsearch.c; sourceTree = "<group>"; };
+		BE83B810249AA21900F625B9 /* ksort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ksort.c; path = libs/klib/ksort.c; sourceTree = "<group>"; };
+		BE83B812249AA26500F625B9 /* qsort.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = qsort.c; path = libs/klib/qsort.c; sourceTree = "<group>"; };
+		BE83B814249AA37700F625B9 /* printf.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = printf.c; path = libs/klib/printf.c; sourceTree = "<group>"; };
+		BE83B816249AA3B300F625B9 /* syslog.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syslog.c; path = libs/klib/unix/syslog.c; sourceTree = "<group>"; };
+		BE83B818249AA42200F625B9 /* systime.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = systime.c; path = libs/klib/unix/systime.c; sourceTree = "<group>"; };
+		BE83B81A249AA45B00F625B9 /* syserrcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syserrcode.c; path = libs/klib/unix/syserrcode.c; sourceTree = "<group>"; };
+		BE83B81C249AA49100F625B9 /* report-klib.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "report-klib.c"; path = "libs/klib/report-klib.c"; sourceTree = "<group>"; };
+		BE83B81E249AA4D000F625B9 /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = misc.c; path = libs/klib/unix/misc.c; sourceTree = "<group>"; };
+		BE83B820249AA4F700F625B9 /* data-buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "data-buffer.c"; path = "libs/klib/data-buffer.c"; sourceTree = "<group>"; };
+		BE83B823249AA54500F625B9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/kfs/Makefile; sourceTree = "<group>"; };
+		BE83B824249AA59700F625B9 /* directory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = directory.c; path = libs/kfs/directory.c; sourceTree = "<group>"; };
+		BE83B826249AA5DB00F625B9 /* sysdir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysdir.c; path = libs/kfs/unix/sysdir.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +295,7 @@
 		BE83B78824995C8E00F625B9 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				BE83B822249AA53300F625B9 /* kfs */,
 				BE83B7B8249A7C0100F625B9 /* klib */,
 				BE83B78924995CBA00F625B9 /* kapp */,
 			);
@@ -286,6 +340,29 @@
 		BE83B7B8249A7C0100F625B9 /* klib */ = {
 			isa = PBXGroup;
 			children = (
+				BE83B820249AA4F700F625B9 /* data-buffer.c */,
+				BE83B81E249AA4D000F625B9 /* misc.c */,
+				BE83B81C249AA49100F625B9 /* report-klib.c */,
+				BE83B81A249AA45B00F625B9 /* syserrcode.c */,
+				BE83B814249AA37700F625B9 /* printf.c */,
+				BE83B812249AA26500F625B9 /* qsort.c */,
+				BE83B810249AA21900F625B9 /* ksort.c */,
+				BE83B80E249AA1EA00F625B9 /* bsearch.c */,
+				BE83B80C249AA19800F625B9 /* sra-release-version.c */,
+				BE83B809249AA16000F625B9 /* rc-idx-tbl.c */,
+				BE83B808249AA16000F625B9 /* rc-tbl.c */,
+				BE83B804249AA0F300F625B9 /* status-rc-strings.c */,
+				BE83B805249AA0F300F625B9 /* status-rc.c */,
+				BE83B800249A9F4400F625B9 /* pbstree-native.c */,
+				BE83B801249A9F4400F625B9 /* pbstree-swapped.c */,
+				BE83B7FC249A9DDE00F625B9 /* status.c */,
+				BE83B7FA249A9DB100F625B9 /* out.c */,
+				BE83B816249AA3B300F625B9 /* syslog.c */,
+				BE83B7F8249A9D7800F625B9 /* log.c */,
+				BE83B7F6249A9D1E00F625B9 /* debug.c */,
+				BE83B7FE249A9E3700F625B9 /* syswriter.c */,
+				BE83B7F4249A9CB400F625B9 /* writer.c */,
+				BE83B7F2249A9B9600F625B9 /* bstpersist.c */,
 				BE83B7D6249A85AE00F625B9 /* pbstree.c */,
 				BE83B7D2249A850700F625B9 /* all-vdb-version.c */,
 				BE83B7D0249A850700F625B9 /* trie.c */,
@@ -299,6 +376,7 @@
 				BE83B7C1249A847C00F625B9 /* iso8859-1.c */,
 				BE83B7C0249A847C00F625B9 /* iso8859.c */,
 				BE83B7BA249A846700F625B9 /* text.c */,
+				BE83B818249AA42200F625B9 /* systime.c */,
 				BE83B7BB249A846700F625B9 /* time.c */,
 				BE83B7BC249A846700F625B9 /* utf8.c */,
 				BE83B7B9249A7C1400F625B9 /* Makefile */,
@@ -330,6 +408,16 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE83B822249AA53300F625B9 /* kfs */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B826249AA5DB00F625B9 /* sysdir.c */,
+				BE83B824249AA59700F625B9 /* directory.c */,
+				BE83B823249AA54500F625B9 /* Makefile */,
+			);
+			name = kfs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -488,21 +576,47 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE83B81D249AA49100F625B9 /* report-klib.c in Sources */,
+				BE83B7F3249A9B9600F625B9 /* bstpersist.c in Sources */,
+				BE83B7FD249A9DDE00F625B9 /* status.c in Sources */,
+				BE83B827249AA5DB00F625B9 /* sysdir.c in Sources */,
+				BE83B806249AA0F300F625B9 /* status-rc-strings.c in Sources */,
+				BE83B819249AA42200F625B9 /* systime.c in Sources */,
 				BE83B7BF249A846700F625B9 /* utf8.c in Sources */,
 				BE83B7C9249A84A000F625B9 /* token.c in Sources */,
+				BE83B7F7249A9D1E00F625B9 /* debug.c in Sources */,
 				BE83B7CF249A84D200F625B9 /* namelist.c in Sources */,
+				BE83B80A249AA16000F625B9 /* rc-tbl.c in Sources */,
 				BE83B7BE249A846700F625B9 /* time.c in Sources */,
+				BE83B811249AA21900F625B9 /* ksort.c in Sources */,
+				BE83B802249A9F4400F625B9 /* pbstree-native.c in Sources */,
+				BE83B7FB249A9DB100F625B9 /* out.c in Sources */,
+				BE83B807249AA0F300F625B9 /* status-rc.c in Sources */,
+				BE83B81F249AA4D100F625B9 /* misc.c in Sources */,
+				BE83B7F9249A9D7800F625B9 /* log.c in Sources */,
+				BE83B821249AA4F700F625B9 /* data-buffer.c in Sources */,
 				BE83B7CD249A84D200F625B9 /* container.c in Sources */,
 				BE83B7C5249A848A00F625B9 /* cp1252.c in Sources */,
+				BE83B815249AA37700F625B9 /* printf.c in Sources */,
 				BE83B7D4249A850700F625B9 /* vector_namelist.c in Sources */,
+				BE83B813249AA26500F625B9 /* qsort.c in Sources */,
 				BE83B7D5249A850700F625B9 /* all-vdb-version.c in Sources */,
+				BE83B817249AA3B300F625B9 /* syslog.c in Sources */,
 				BE83B7D7249A85AE00F625B9 /* pbstree.c in Sources */,
 				BE83B7BD249A846700F625B9 /* text.c in Sources */,
+				BE83B803249A9F4400F625B9 /* pbstree-swapped.c in Sources */,
+				BE83B80F249AA1EB00F625B9 /* bsearch.c in Sources */,
 				BE83B7D3249A850700F625B9 /* trie.c in Sources */,
 				BE83B7C8249A84A000F625B9 /* symtab.c in Sources */,
 				BE83B7C2249A847C00F625B9 /* iso8859.c in Sources */,
+				BE83B80B249AA16000F625B9 /* rc-idx-tbl.c in Sources */,
+				BE83B825249AA59700F625B9 /* directory.c in Sources */,
+				BE83B7FF249A9E3700F625B9 /* syswriter.c in Sources */,
+				BE83B7F5249A9CB400F625B9 /* writer.c in Sources */,
+				BE83B81B249AA45B00F625B9 /* syserrcode.c in Sources */,
 				BE83B7CE249A84D200F625B9 /* vector.c in Sources */,
 				BE83B7C3249A847C00F625B9 /* iso8859-1.c in Sources */,
+				BE83B80D249AA19800F625B9 /* sra-release-version.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
