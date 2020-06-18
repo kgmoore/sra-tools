@@ -75,6 +75,20 @@
 		BE83B821249AA4F700F625B9 /* data-buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B820249AA4F700F625B9 /* data-buffer.c */; };
 		BE83B825249AA59700F625B9 /* directory.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B824249AA59700F625B9 /* directory.c */; };
 		BE83B827249AA5DB00F625B9 /* sysdir.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B826249AA5DB00F625B9 /* sysdir.c */; };
+		BE83B829249AB6CA00F625B9 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B828249AB6CA00F625B9 /* file.c */; };
+		BE83B82B249AB75900F625B9 /* sysfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B82A249AB75900F625B9 /* sysfile.c */; };
+		BE83B82D249AB7D000F625B9 /* refcount.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B82C249AB7D000F625B9 /* refcount.c */; };
+		BE83B82F249ABA2B00F625B9 /* chunk-reader.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B82E249ABA2B00F625B9 /* chunk-reader.c */; };
+		BE83B831249ABA6100F625B9 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B830249ABA6100F625B9 /* md5.c */; };
+		BE83B833249ABA9200F625B9 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B832249ABA9200F625B9 /* md5.c */; };
+		BE83B835249ABB1300F625B9 /* report.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B834249ABB1300F625B9 /* report.c */; };
+		BE83B83A249BAA7F00F625B9 /* task.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B839249BAA7F00F625B9 /* task.c */; };
+		BE83B83C249BAA9200F625B9 /* procmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B83B249BAA9200F625B9 /* procmgr.c */; };
+		BE83B83E249BAAA600F625B9 /* sysmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B83D249BAAA600F625B9 /* sysmgr.c */; };
+		BE83B842249BABA600F625B9 /* systimeout.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B83F249BABA500F625B9 /* systimeout.c */; };
+		BE83B843249BABA600F625B9 /* systhread.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B840249BABA500F625B9 /* systhread.c */; };
+		BE83B844249BABA600F625B9 /* syscond.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B841249BABA500F625B9 /* syscond.c */; };
+		BE83B846249BAD5C00F625B9 /* syslock.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B845249BAD5C00F625B9 /* syslock.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -176,6 +190,21 @@
 		BE83B823249AA54500F625B9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/kfs/Makefile; sourceTree = "<group>"; };
 		BE83B824249AA59700F625B9 /* directory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = directory.c; path = libs/kfs/directory.c; sourceTree = "<group>"; };
 		BE83B826249AA5DB00F625B9 /* sysdir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysdir.c; path = libs/kfs/unix/sysdir.c; sourceTree = "<group>"; };
+		BE83B828249AB6CA00F625B9 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = file.c; path = libs/kfs/file.c; sourceTree = "<group>"; };
+		BE83B82A249AB75900F625B9 /* sysfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysfile.c; path = libs/kfs/unix/sysfile.c; sourceTree = "<group>"; };
+		BE83B82C249AB7D000F625B9 /* refcount.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = refcount.c; path = libs/klib/refcount.c; sourceTree = "<group>"; };
+		BE83B82E249ABA2B00F625B9 /* chunk-reader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "chunk-reader.c"; path = "libs/kfs/chunk-reader.c"; sourceTree = "<group>"; };
+		BE83B830249ABA6100F625B9 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = md5.c; path = libs/kfs/md5.c; sourceTree = "<group>"; };
+		BE83B832249ABA9200F625B9 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = md5.c; path = libs/klib/md5.c; sourceTree = "<group>"; };
+		BE83B834249ABB1300F625B9 /* report.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = report.c; path = libs/kfs/report.c; sourceTree = "<group>"; };
+		BE83B837249BAA5B00F625B9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/kproc/Makefile; sourceTree = "<group>"; };
+		BE83B839249BAA7F00F625B9 /* task.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = task.c; path = libs/kproc/task.c; sourceTree = "<group>"; };
+		BE83B83B249BAA9200F625B9 /* procmgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = procmgr.c; path = libs/kproc/procmgr.c; sourceTree = "<group>"; };
+		BE83B83D249BAAA600F625B9 /* sysmgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysmgr.c; path = libs/kproc/bsd/sysmgr.c; sourceTree = "<group>"; };
+		BE83B83F249BABA500F625B9 /* systimeout.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = systimeout.c; path = libs/kproc/unix/systimeout.c; sourceTree = "<group>"; };
+		BE83B840249BABA500F625B9 /* systhread.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = systhread.c; path = libs/kproc/unix/systhread.c; sourceTree = "<group>"; };
+		BE83B841249BABA500F625B9 /* syscond.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syscond.c; path = libs/kproc/unix/syscond.c; sourceTree = "<group>"; };
+		BE83B845249BAD5C00F625B9 /* syslock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syslock.c; path = libs/kproc/bsd/syslock.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -295,6 +324,7 @@
 		BE83B78824995C8E00F625B9 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				BE83B836249BAA4500F625B9 /* kproc */,
 				BE83B822249AA53300F625B9 /* kfs */,
 				BE83B7B8249A7C0100F625B9 /* klib */,
 				BE83B78924995CBA00F625B9 /* kapp */,
@@ -340,6 +370,8 @@
 		BE83B7B8249A7C0100F625B9 /* klib */ = {
 			isa = PBXGroup;
 			children = (
+				BE83B832249ABA9200F625B9 /* md5.c */,
+				BE83B82C249AB7D000F625B9 /* refcount.c */,
 				BE83B820249AA4F700F625B9 /* data-buffer.c */,
 				BE83B81E249AA4D000F625B9 /* misc.c */,
 				BE83B81C249AA49100F625B9 /* report-klib.c */,
@@ -413,11 +445,31 @@
 		BE83B822249AA53300F625B9 /* kfs */ = {
 			isa = PBXGroup;
 			children = (
+				BE83B834249ABB1300F625B9 /* report.c */,
+				BE83B830249ABA6100F625B9 /* md5.c */,
+				BE83B82E249ABA2B00F625B9 /* chunk-reader.c */,
+				BE83B82A249AB75900F625B9 /* sysfile.c */,
+				BE83B828249AB6CA00F625B9 /* file.c */,
 				BE83B826249AA5DB00F625B9 /* sysdir.c */,
 				BE83B824249AA59700F625B9 /* directory.c */,
 				BE83B823249AA54500F625B9 /* Makefile */,
 			);
 			name = kfs;
+			sourceTree = "<group>";
+		};
+		BE83B836249BAA4500F625B9 /* kproc */ = {
+			isa = PBXGroup;
+			children = (
+				BE83B841249BABA500F625B9 /* syscond.c */,
+				BE83B840249BABA500F625B9 /* systhread.c */,
+				BE83B83F249BABA500F625B9 /* systimeout.c */,
+				BE83B845249BAD5C00F625B9 /* syslock.c */,
+				BE83B83D249BAAA600F625B9 /* sysmgr.c */,
+				BE83B83B249BAA9200F625B9 /* procmgr.c */,
+				BE83B839249BAA7F00F625B9 /* task.c */,
+				BE83B837249BAA5B00F625B9 /* Makefile */,
+			);
+			name = kproc;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -579,8 +631,12 @@
 				BE83B81D249AA49100F625B9 /* report-klib.c in Sources */,
 				BE83B7F3249A9B9600F625B9 /* bstpersist.c in Sources */,
 				BE83B7FD249A9DDE00F625B9 /* status.c in Sources */,
+				BE83B846249BAD5C00F625B9 /* syslock.c in Sources */,
 				BE83B827249AA5DB00F625B9 /* sysdir.c in Sources */,
+				BE83B83A249BAA7F00F625B9 /* task.c in Sources */,
+				BE83B82F249ABA2B00F625B9 /* chunk-reader.c in Sources */,
 				BE83B806249AA0F300F625B9 /* status-rc-strings.c in Sources */,
+				BE83B831249ABA6100F625B9 /* md5.c in Sources */,
 				BE83B819249AA42200F625B9 /* systime.c in Sources */,
 				BE83B7BF249A846700F625B9 /* utf8.c in Sources */,
 				BE83B7C9249A84A000F625B9 /* token.c in Sources */,
@@ -592,29 +648,39 @@
 				BE83B802249A9F4400F625B9 /* pbstree-native.c in Sources */,
 				BE83B7FB249A9DB100F625B9 /* out.c in Sources */,
 				BE83B807249AA0F300F625B9 /* status-rc.c in Sources */,
+				BE83B844249BABA600F625B9 /* syscond.c in Sources */,
 				BE83B81F249AA4D100F625B9 /* misc.c in Sources */,
 				BE83B7F9249A9D7800F625B9 /* log.c in Sources */,
 				BE83B821249AA4F700F625B9 /* data-buffer.c in Sources */,
+				BE83B835249ABB1300F625B9 /* report.c in Sources */,
 				BE83B7CD249A84D200F625B9 /* container.c in Sources */,
 				BE83B7C5249A848A00F625B9 /* cp1252.c in Sources */,
 				BE83B815249AA37700F625B9 /* printf.c in Sources */,
 				BE83B7D4249A850700F625B9 /* vector_namelist.c in Sources */,
+				BE83B83E249BAAA600F625B9 /* sysmgr.c in Sources */,
+				BE83B829249AB6CA00F625B9 /* file.c in Sources */,
 				BE83B813249AA26500F625B9 /* qsort.c in Sources */,
 				BE83B7D5249A850700F625B9 /* all-vdb-version.c in Sources */,
+				BE83B842249BABA600F625B9 /* systimeout.c in Sources */,
 				BE83B817249AA3B300F625B9 /* syslog.c in Sources */,
 				BE83B7D7249A85AE00F625B9 /* pbstree.c in Sources */,
+				BE83B82B249AB75900F625B9 /* sysfile.c in Sources */,
 				BE83B7BD249A846700F625B9 /* text.c in Sources */,
 				BE83B803249A9F4400F625B9 /* pbstree-swapped.c in Sources */,
 				BE83B80F249AA1EB00F625B9 /* bsearch.c in Sources */,
 				BE83B7D3249A850700F625B9 /* trie.c in Sources */,
+				BE83B82D249AB7D000F625B9 /* refcount.c in Sources */,
 				BE83B7C8249A84A000F625B9 /* symtab.c in Sources */,
 				BE83B7C2249A847C00F625B9 /* iso8859.c in Sources */,
 				BE83B80B249AA16000F625B9 /* rc-idx-tbl.c in Sources */,
 				BE83B825249AA59700F625B9 /* directory.c in Sources */,
+				BE83B83C249BAA9200F625B9 /* procmgr.c in Sources */,
 				BE83B7FF249A9E3700F625B9 /* syswriter.c in Sources */,
+				BE83B833249ABA9200F625B9 /* md5.c in Sources */,
 				BE83B7F5249A9CB400F625B9 /* writer.c in Sources */,
 				BE83B81B249AA45B00F625B9 /* syserrcode.c in Sources */,
 				BE83B7CE249A84D200F625B9 /* vector.c in Sources */,
+				BE83B843249BABA600F625B9 /* systhread.c in Sources */,
 				BE83B7C3249A847C00F625B9 /* iso8859-1.c in Sources */,
 				BE83B80D249AA19800F625B9 /* sra-release-version.c in Sources */,
 			);
@@ -697,6 +763,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"XCODE=1",
 					"NO_KRSRC=1",
 					"PKGNAME=mac64",
 					_DEBUGGING,
@@ -776,6 +843,7 @@
 				GCC_C_LANGUAGE_STANDARD = c11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"XCODE=1",
 					"NO_KRSRC=1",
 					"PKGNAME=mac64",
 					MAC,
