@@ -171,6 +171,9 @@
 		BECB327D249D1FAA00C4374A /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB327C249D1FAA00C4374A /* crc32.c */; };
 		BECB3280249D1FE900C4374A /* SHA-64bit.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB327E249D1FE800C4374A /* SHA-64bit.c */; };
 		BECB3281249D1FE900C4374A /* SHA-32bit.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB327F249D1FE800C4374A /* SHA-32bit.c */; };
+		BECB3287249D413D00C4374A /* json.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB3286249D413D00C4374A /* json.c */; };
+		BECB328A249D415800C4374A /* json-grammar.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB3288249D415800C4374A /* json-grammar.c */; settings = {COMPILER_FLAGS = "-Wno-unreachable-code"; }; };
+		BECB328B249D415800C4374A /* json-lex.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB3289249D415800C4374A /* json-lex.c */; settings = {COMPILER_FLAGS = "-Wno-shorten-64-to-32 -Wno-unreachable-code -Wno-unused-function -Wno-unneeded-internal-declaration"; }; };
 		BED0FE9E249BB40A008CF91D /* manager.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FE9D249BB40A008CF91D /* manager.c */; };
 		BED0FEA8249BB474008CF91D /* cloud-mgr.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FEA2249BB474008CF91D /* cloud-mgr.c */; };
 		BED0FEA9249BB474008CF91D /* cloud-cmn.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FEA3249BB474008CF91D /* cloud-cmn.c */; };
@@ -473,6 +476,9 @@
 		BECB327C249D1FAA00C4374A /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crc32.c; path = libs/klib/crc32.c; sourceTree = "<group>"; };
 		BECB327E249D1FE800C4374A /* SHA-64bit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "SHA-64bit.c"; path = "libs/klib/SHA-64bit.c"; sourceTree = "<group>"; };
 		BECB327F249D1FE800C4374A /* SHA-32bit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "SHA-32bit.c"; path = "libs/klib/SHA-32bit.c"; sourceTree = "<group>"; };
+		BECB3286249D413D00C4374A /* json.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = json.c; path = libs/klib/json.c; sourceTree = "<group>"; };
+		BECB3288249D415800C4374A /* json-grammar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "json-grammar.c"; path = "libs/klib/json-grammar.c"; sourceTree = "<group>"; };
+		BECB3289249D415800C4374A /* json-lex.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "json-lex.c"; path = "libs/klib/json-lex.c"; sourceTree = "<group>"; };
 		BED0FE9B249BB13C008CF91D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/kns/Makefile; sourceTree = "<group>"; };
 		BED0FE9D249BB40A008CF91D /* manager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = manager.c; path = libs/kns/manager.c; sourceTree = "<group>"; };
 		BED0FEA0249BB43D008CF91D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/cloud/Makefile; sourceTree = "<group>"; };
@@ -763,6 +769,9 @@
 				BE83B7F6249A9D1E00F625B9 /* debug.c */,
 				BE83B7C1249A847C00F625B9 /* iso8859-1.c */,
 				BE83B7C0249A847C00F625B9 /* iso8859.c */,
+				BECB3286249D413D00C4374A /* json.c */,
+				BECB3288249D415800C4374A /* json-grammar.c */,
+				BECB3289249D415800C4374A /* json-lex.c */,
 				BE83B810249AA21900F625B9 /* ksort.c */,
 				BE83B7F8249A9D7800F625B9 /* log.c */,
 				BE83B832249ABA9200F625B9 /* md5.c */,
@@ -1413,6 +1422,7 @@
 				BED0FF76249BD8B9008CF91D /* ssl_srv.c in Sources */,
 				BE2213FA249C590A00EC1EDD /* chunk-reader.c in Sources */,
 				BE83B82D249AB7D000F625B9 /* refcount.c in Sources */,
+				BECB328B249D415800C4374A /* json-lex.c in Sources */,
 				BE83B7C8249A84A000F625B9 /* symtab.c in Sources */,
 				BE2213DE249C590A00EC1EDD /* report.c in Sources */,
 				BED0FF0E249BB9E5008CF91D /* entropy_poll.c in Sources */,
@@ -1425,10 +1435,12 @@
 				BE221416249C5A8C00EC1EDD /* stream-from-streams.c in Sources */,
 				BED0FF2B249BB9E5008CF91D /* sha512.c in Sources */,
 				BED0FEC1249BB51F008CF91D /* config-lex.c in Sources */,
+				BECB3287249D413D00C4374A /* json.c in Sources */,
 				BE2213E5249C590A00EC1EDD /* cacheteefile2.c in Sources */,
 				BECB3276249D1F3500C4374A /* aes-byte.c in Sources */,
 				BE83B80B249AA16000F625B9 /* rc-idx-tbl.c in Sources */,
 				BED0FF91249BD9F1008CF91D /* stable-http-file.c in Sources */,
+				BECB328A249D415800C4374A /* json-grammar.c in Sources */,
 				BED0FF19249BB9E5008CF91D /* havege.c in Sources */,
 				BE83B83C249BAA9200F625B9 /* procmgr.c in Sources */,
 				BECB3256249D1C9C00C4374A /* jwt.c in Sources */,
