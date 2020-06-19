@@ -144,6 +144,17 @@
 		BE83B846249BAD5C00F625B9 /* syslock.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B845249BAD5C00F625B9 /* syslock.c */; };
 		BECB3243249C5EE800C4374A /* syspoll.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB3242249C5EE700C4374A /* syspoll.c */; };
 		BECB3245249C645600C4374A /* mmap.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB3244249C645600C4374A /* mmap.c */; };
+		BECB3252249D1C9C00C4374A /* resolver-3.0.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB3249249D1C9C00C4374A /* resolver-3.0.c */; };
+		BECB3253249D1C9C00C4374A /* names4-response.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB324A249D1C9C00C4374A /* names4-response.c */; };
+		BECB3254249D1C9C00C4374A /* services.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB324B249D1C9C00C4374A /* services.c */; };
+		BECB3255249D1C9C00C4374A /* manager.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB324C249D1C9C00C4374A /* manager.c */; };
+		BECB3256249D1C9C00C4374A /* jwt.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB324D249D1C9C00C4374A /* jwt.c */; };
+		BECB3257249D1C9C00C4374A /* srv-response.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB324E249D1C9C00C4374A /* srv-response.c */; };
+		BECB3258249D1C9C00C4374A /* sdl-response.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB324F249D1C9C00C4374A /* sdl-response.c */; };
+		BECB3259249D1C9C00C4374A /* remote-services.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB3250249D1C9C00C4374A /* remote-services.c */; };
+		BECB325A249D1C9C00C4374A /* resolver.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB3251249D1C9C00C4374A /* resolver.c */; };
+		BECB325C249D1CA900C4374A /* syspath.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB325B249D1CA900C4374A /* syspath.c */; };
+		BECB325E249D1DA500C4374A /* path.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB325D249D1DA500C4374A /* path.c */; };
 		BED0FE9E249BB40A008CF91D /* manager.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FE9D249BB40A008CF91D /* manager.c */; };
 		BED0FEA8249BB474008CF91D /* cloud-mgr.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FEA2249BB474008CF91D /* cloud-mgr.c */; };
 		BED0FEA9249BB474008CF91D /* cloud-cmn.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FEA3249BB474008CF91D /* cloud-cmn.c */; };
@@ -417,6 +428,18 @@
 		BE83B845249BAD5C00F625B9 /* syslock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syslock.c; path = libs/kproc/bsd/syslock.c; sourceTree = "<group>"; };
 		BECB3242249C5EE700C4374A /* syspoll.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syspoll.c; path = libs/kns/mac/syspoll.c; sourceTree = "<group>"; };
 		BECB3244249C645600C4374A /* mmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mmap.c; path = libs/kfs/mmap.c; sourceTree = "<group>"; };
+		BECB3247249D1C3E00C4374A /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/vfs/Makefile; sourceTree = "<group>"; };
+		BECB3249249D1C9C00C4374A /* resolver-3.0.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "resolver-3.0.c"; path = "libs/vfs/resolver-3.0.c"; sourceTree = "<group>"; };
+		BECB324A249D1C9C00C4374A /* names4-response.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "names4-response.c"; path = "libs/vfs/names4-response.c"; sourceTree = "<group>"; };
+		BECB324B249D1C9C00C4374A /* services.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = services.c; path = libs/vfs/services.c; sourceTree = "<group>"; };
+		BECB324C249D1C9C00C4374A /* manager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = manager.c; path = libs/vfs/manager.c; sourceTree = "<group>"; };
+		BECB324D249D1C9C00C4374A /* jwt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = jwt.c; path = libs/vfs/jwt.c; sourceTree = "<group>"; };
+		BECB324E249D1C9C00C4374A /* srv-response.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "srv-response.c"; path = "libs/vfs/srv-response.c"; sourceTree = "<group>"; };
+		BECB324F249D1C9C00C4374A /* sdl-response.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "sdl-response.c"; path = "libs/vfs/sdl-response.c"; sourceTree = "<group>"; };
+		BECB3250249D1C9C00C4374A /* remote-services.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "remote-services.c"; path = "libs/vfs/remote-services.c"; sourceTree = "<group>"; };
+		BECB3251249D1C9C00C4374A /* resolver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = resolver.c; path = libs/vfs/resolver.c; sourceTree = "<group>"; };
+		BECB325B249D1CA900C4374A /* syspath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syspath.c; path = libs/vfs/unix/syspath.c; sourceTree = "<group>"; };
+		BECB325D249D1DA500C4374A /* path.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = path.c; path = libs/vfs/path.c; sourceTree = "<group>"; };
 		BED0FE9B249BB13C008CF91D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/kns/Makefile; sourceTree = "<group>"; };
 		BED0FE9D249BB40A008CF91D /* manager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = manager.c; path = libs/kns/manager.c; sourceTree = "<group>"; };
 		BED0FEA0249BB43D008CF91D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/cloud/Makefile; sourceTree = "<group>"; };
@@ -643,6 +666,7 @@
 		BE83B78824995C8E00F625B9 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				BECB3246249D1C2600C4374A /* VFS */,
 				BED0FEC7249BB8D2008CF91D /* mbedtls */,
 				BED0FEAE249BB498008CF91D /* kfg (Config) */,
 				BED0FE9F249BB42D008CF91D /* cloud */,
@@ -838,6 +862,25 @@
 				BE83B837249BAA5B00F625B9 /* Makefile */,
 			);
 			name = kproc;
+			sourceTree = "<group>";
+		};
+		BECB3246249D1C2600C4374A /* VFS */ = {
+			isa = PBXGroup;
+			children = (
+				BECB325D249D1DA500C4374A /* path.c */,
+				BECB325B249D1CA900C4374A /* syspath.c */,
+				BECB324D249D1C9C00C4374A /* jwt.c */,
+				BECB324C249D1C9C00C4374A /* manager.c */,
+				BECB324A249D1C9C00C4374A /* names4-response.c */,
+				BECB3250249D1C9C00C4374A /* remote-services.c */,
+				BECB3249249D1C9C00C4374A /* resolver-3.0.c */,
+				BECB3251249D1C9C00C4374A /* resolver.c */,
+				BECB324F249D1C9C00C4374A /* sdl-response.c */,
+				BECB324B249D1C9C00C4374A /* services.c */,
+				BECB324E249D1C9C00C4374A /* srv-response.c */,
+				BECB3247249D1C3E00C4374A /* Makefile */,
+			);
+			name = VFS;
 			sourceTree = "<group>";
 		};
 		BED0FE9A249BB12C008CF91D /* kns */ = {
@@ -1148,6 +1191,8 @@
 				BED0FF12249BB9E5008CF91D /* threading.c in Sources */,
 				BED0FF8B249BD908008CF91D /* x509write_crt.c in Sources */,
 				BE83B7F3249A9B9600F625B9 /* bstpersist.c in Sources */,
+				BECB3258249D1C9C00C4374A /* sdl-response.c in Sources */,
+				BECB325A249D1C9C00C4374A /* resolver.c in Sources */,
 				BED0FF0D249BB9E5008CF91D /* version.c in Sources */,
 				BE2213E6249C590A00EC1EDD /* tocfile.c in Sources */,
 				BE83B7FD249A9DDE00F625B9 /* status.c in Sources */,
@@ -1178,6 +1223,7 @@
 				BED0FF0C249BB9E5008CF91D /* asn1write.c in Sources */,
 				BE2213E0249C590A00EC1EDD /* tar.c in Sources */,
 				BED0FF35249BB9E5008CF91D /* padlock.c in Sources */,
+				BECB3257249D1C9C00C4374A /* srv-response.c in Sources */,
 				BE2213DA249C590A00EC1EDD /* pmem.c in Sources */,
 				BE2213E1249C590A00EC1EDD /* from_to_namelist.c in Sources */,
 				BE221400249C590A00EC1EDD /* extendable-ramfile.c in Sources */,
@@ -1195,6 +1241,7 @@
 				BED0FEAB249BB474008CF91D /* cloud.c in Sources */,
 				BE83B80A249AA16000F625B9 /* rc-tbl.c in Sources */,
 				BE83B7BE249A846700F625B9 /* time.c in Sources */,
+				BECB325E249D1DA500C4374A /* path.c in Sources */,
 				BED0FF8D249BD908008CF91D /* x509_create.c in Sources */,
 				BED0FF1C249BB9E5008CF91D /* hmac_drbg.c in Sources */,
 				BED0FF2D249BB9E5008CF91D /* pkcs12.c in Sources */,
@@ -1208,9 +1255,12 @@
 				BED0FF29249BB9E5008CF91D /* camellia.c in Sources */,
 				BE221417249C5A8C00EC1EDD /* stream-from-files.c in Sources */,
 				BED0FF16249BB9E5008CF91D /* ecjpake.c in Sources */,
+				BECB325C249D1CA900C4374A /* syspath.c in Sources */,
 				BE221401249C590A00EC1EDD /* toc.c in Sources */,
 				BED0FF8A249BD908008CF91D /* x509_crt.c in Sources */,
 				BED0FF08249BB9E5008CF91D /* ecdsa.c in Sources */,
+				BECB3252249D1C9C00C4374A /* resolver-3.0.c in Sources */,
+				BECB3253249D1C9C00C4374A /* names4-response.c in Sources */,
 				BE2213F1249C590A00EC1EDD /* buffile-read.c in Sources */,
 				BE83B802249A9F4400F625B9 /* pbstree-native.c in Sources */,
 				BED0FF8E249BD908008CF91D /* x509_csr.c in Sources */,
@@ -1289,6 +1339,7 @@
 				BED0FF86249BD908008CF91D /* pkcs11.c in Sources */,
 				BE83B80F249AA1EB00F625B9 /* bsearch.c in Sources */,
 				BE83B7D3249A850700F625B9 /* trie.c in Sources */,
+				BECB3254249D1C9C00C4374A /* services.c in Sources */,
 				BED0FF31249BB9E5008CF91D /* ripemd160.c in Sources */,
 				BED0FF76249BD8B9008CF91D /* ssl_srv.c in Sources */,
 				BE2213FA249C590A00EC1EDD /* chunk-reader.c in Sources */,
@@ -1297,6 +1348,7 @@
 				BE2213DE249C590A00EC1EDD /* report.c in Sources */,
 				BED0FF0E249BB9E5008CF91D /* entropy_poll.c in Sources */,
 				BED0FF0F249BB9E5008CF91D /* platform_util.c in Sources */,
+				BECB3259249D1C9C00C4374A /* remote-services.c in Sources */,
 				BE83B7C2249A847C00F625B9 /* iso8859.c in Sources */,
 				BED0FF26249BB9E5008CF91D /* md_wrap.c in Sources */,
 				BE2213E4249C590A00EC1EDD /* callback_file.c in Sources */,
@@ -1308,6 +1360,7 @@
 				BED0FF91249BD9F1008CF91D /* stable-http-file.c in Sources */,
 				BED0FF19249BB9E5008CF91D /* havege.c in Sources */,
 				BE83B83C249BAA9200F625B9 /* procmgr.c in Sources */,
+				BECB3256249D1C9C00C4374A /* jwt.c in Sources */,
 				BE83B7FF249A9E3700F625B9 /* syswriter.c in Sources */,
 				BE22141A249C5AD000EC1EDD /* sysendpoint.c in Sources */,
 				BED0FF37249BB9E5008CF91D /* des.c in Sources */,
@@ -1348,6 +1401,7 @@
 				BED0FE9E249BB40A008CF91D /* manager.c in Sources */,
 				BE2213F5249C590A00EC1EDD /* teefile.c in Sources */,
 				BE83B7C3249A847C00F625B9 /* iso8859-1.c in Sources */,
+				BECB3255249D1C9C00C4374A /* manager.c in Sources */,
 				BED0FEAD249BB474008CF91D /* gcp.c in Sources */,
 				BE221421249C5B1F00EC1EDD /* http.c in Sources */,
 				BE83B80D249AA19800F625B9 /* sra-release-version.c in Sources */,
