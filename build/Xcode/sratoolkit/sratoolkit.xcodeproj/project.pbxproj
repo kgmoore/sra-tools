@@ -168,6 +168,9 @@
 		BECB3279249D1F3500C4374A /* ciphermgr.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB326E249D1F3500C4374A /* ciphermgr.c */; };
 		BECB327A249D1F3500C4374A /* reencfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB326F249D1F3500C4374A /* reencfile.c */; };
 		BECB327B249D1F3500C4374A /* wgaencrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB3270249D1F3500C4374A /* wgaencrypt.c */; };
+		BECB327D249D1FAA00C4374A /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB327C249D1FAA00C4374A /* crc32.c */; };
+		BECB3280249D1FE900C4374A /* SHA-64bit.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB327E249D1FE800C4374A /* SHA-64bit.c */; };
+		BECB3281249D1FE900C4374A /* SHA-32bit.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB327F249D1FE800C4374A /* SHA-32bit.c */; };
 		BED0FE9E249BB40A008CF91D /* manager.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FE9D249BB40A008CF91D /* manager.c */; };
 		BED0FEA8249BB474008CF91D /* cloud-mgr.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FEA2249BB474008CF91D /* cloud-mgr.c */; };
 		BED0FEA9249BB474008CF91D /* cloud-cmn.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FEA3249BB474008CF91D /* cloud-cmn.c */; };
@@ -467,6 +470,9 @@
 		BECB326E249D1F3500C4374A /* ciphermgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ciphermgr.c; path = libs/krypto/ciphermgr.c; sourceTree = "<group>"; };
 		BECB326F249D1F3500C4374A /* reencfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = reencfile.c; path = libs/krypto/reencfile.c; sourceTree = "<group>"; };
 		BECB3270249D1F3500C4374A /* wgaencrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = wgaencrypt.c; path = libs/krypto/wgaencrypt.c; sourceTree = "<group>"; };
+		BECB327C249D1FAA00C4374A /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crc32.c; path = libs/klib/crc32.c; sourceTree = "<group>"; };
+		BECB327E249D1FE800C4374A /* SHA-64bit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "SHA-64bit.c"; path = "libs/klib/SHA-64bit.c"; sourceTree = "<group>"; };
+		BECB327F249D1FE800C4374A /* SHA-32bit.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "SHA-32bit.c"; path = "libs/klib/SHA-32bit.c"; sourceTree = "<group>"; };
 		BED0FE9B249BB13C008CF91D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/kns/Makefile; sourceTree = "<group>"; };
 		BED0FE9D249BB40A008CF91D /* manager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = manager.c; path = libs/kns/manager.c; sourceTree = "<group>"; };
 		BED0FEA0249BB43D008CF91D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/cloud/Makefile; sourceTree = "<group>"; };
@@ -752,6 +758,7 @@
 				BE83B7F2249A9B9600F625B9 /* bstpersist.c */,
 				BE83B7CA249A84D200F625B9 /* container.c */,
 				BE83B7C4249A848A00F625B9 /* cp1252.c */,
+				BECB327C249D1FAA00C4374A /* crc32.c */,
 				BE83B820249AA4F700F625B9 /* data-buffer.c */,
 				BE83B7F6249A9D1E00F625B9 /* debug.c */,
 				BE83B7C1249A847C00F625B9 /* iso8859-1.c */,
@@ -771,6 +778,8 @@
 				BE83B808249AA16000F625B9 /* rc-tbl.c */,
 				BE83B82C249AB7D000F625B9 /* refcount.c */,
 				BE83B81C249AA49100F625B9 /* report-klib.c */,
+				BECB327F249D1FE800C4374A /* SHA-32bit.c */,
+				BECB327E249D1FE800C4374A /* SHA-64bit.c */,
 				BE83B80C249AA19800F625B9 /* sra-release-version.c */,
 				BE83B804249AA0F300F625B9 /* status-rc-strings.c */,
 				BE83B805249AA0F300F625B9 /* status-rc.c */,
@@ -1393,6 +1402,7 @@
 				BED0FEC5249BB51F008CF91D /* docker.c in Sources */,
 				BED0FF07249BB9E5008CF91D /* md.c in Sources */,
 				BE83B7BD249A846700F625B9 /* text.c in Sources */,
+				BECB3281249D1FE900C4374A /* SHA-32bit.c in Sources */,
 				BED0FF64249BC8E8008CF91D /* proxy.c in Sources */,
 				BE83B803249A9F4400F625B9 /* pbstree-swapped.c in Sources */,
 				BED0FF86249BD908008CF91D /* pkcs11.c in Sources */,
@@ -1443,12 +1453,14 @@
 				BED0FF15249BB9E5008CF91D /* arc4.c in Sources */,
 				BE2213F4249C590A00EC1EDD /* rrcachedfile.c in Sources */,
 				BE2213FB249C590A00EC1EDD /* md5.c in Sources */,
+				BECB3280249D1FE900C4374A /* SHA-64bit.c in Sources */,
 				BED0FF0A249BB9E5008CF91D /* poly1305.c in Sources */,
 				BE2213E8249C590A00EC1EDD /* appendfile.c in Sources */,
 				BECB3277249D1F3500C4374A /* cipher-byte.c in Sources */,
 				BED0FF1F249BB9E5008CF91D /* pkparse.c in Sources */,
 				BED0FF33249BB9E5008CF91D /* ecdh.c in Sources */,
 				BE83B81B249AA45B00F625B9 /* syserrcode.c in Sources */,
+				BECB327D249D1FAA00C4374A /* crc32.c in Sources */,
 				BE221407249C595900EC1EDD /* sysmmap.c in Sources */,
 				BE2213EF249C590A00EC1EDD /* lru_cache.c in Sources */,
 				BED0FF05249BB9E5008CF91D /* chacha20.c in Sources */,
