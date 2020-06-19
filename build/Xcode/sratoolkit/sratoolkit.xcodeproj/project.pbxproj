@@ -155,6 +155,8 @@
 		BECB325A249D1C9C00C4374A /* resolver.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB3251249D1C9C00C4374A /* resolver.c */; };
 		BECB325C249D1CA900C4374A /* syspath.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB325B249D1CA900C4374A /* syspath.c */; };
 		BECB325E249D1DA500C4374A /* path.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB325D249D1DA500C4374A /* path.c */; };
+		BECB3260249D1E0B00C4374A /* queue.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB325F249D1E0B00C4374A /* queue.c */; };
+		BECB3262249D1E1F00C4374A /* sem.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB3261249D1E1F00C4374A /* sem.c */; };
 		BED0FE9E249BB40A008CF91D /* manager.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FE9D249BB40A008CF91D /* manager.c */; };
 		BED0FEA8249BB474008CF91D /* cloud-mgr.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FEA2249BB474008CF91D /* cloud-mgr.c */; };
 		BED0FEA9249BB474008CF91D /* cloud-cmn.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FEA3249BB474008CF91D /* cloud-cmn.c */; };
@@ -440,6 +442,8 @@
 		BECB3251249D1C9C00C4374A /* resolver.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = resolver.c; path = libs/vfs/resolver.c; sourceTree = "<group>"; };
 		BECB325B249D1CA900C4374A /* syspath.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syspath.c; path = libs/vfs/unix/syspath.c; sourceTree = "<group>"; };
 		BECB325D249D1DA500C4374A /* path.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = path.c; path = libs/vfs/path.c; sourceTree = "<group>"; };
+		BECB325F249D1E0B00C4374A /* queue.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = queue.c; path = libs/kproc/queue.c; sourceTree = "<group>"; };
+		BECB3261249D1E1F00C4374A /* sem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sem.c; path = libs/kproc/sem.c; sourceTree = "<group>"; };
 		BED0FE9B249BB13C008CF91D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/kns/Makefile; sourceTree = "<group>"; };
 		BED0FE9D249BB40A008CF91D /* manager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = manager.c; path = libs/kns/manager.c; sourceTree = "<group>"; };
 		BED0FEA0249BB43D008CF91D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/cloud/Makefile; sourceTree = "<group>"; };
@@ -852,6 +856,8 @@
 		BE83B836249BAA4500F625B9 /* kproc */ = {
 			isa = PBXGroup;
 			children = (
+				BECB3261249D1E1F00C4374A /* sem.c */,
+				BECB325F249D1E0B00C4374A /* queue.c */,
 				BE83B841249BABA500F625B9 /* syscond.c */,
 				BE83B840249BABA500F625B9 /* systhread.c */,
 				BE83B83F249BABA500F625B9 /* systimeout.c */,
@@ -1192,6 +1198,7 @@
 				BED0FF8B249BD908008CF91D /* x509write_crt.c in Sources */,
 				BE83B7F3249A9B9600F625B9 /* bstpersist.c in Sources */,
 				BECB3258249D1C9C00C4374A /* sdl-response.c in Sources */,
+				BECB3260249D1E0B00C4374A /* queue.c in Sources */,
 				BECB325A249D1C9C00C4374A /* resolver.c in Sources */,
 				BED0FF0D249BB9E5008CF91D /* version.c in Sources */,
 				BE2213E6249C590A00EC1EDD /* tocfile.c in Sources */,
@@ -1209,6 +1216,7 @@
 				BE2213DD249C590A00EC1EDD /* readheadfile.c in Sources */,
 				BED0FEC3249BB51F008CF91D /* config.c in Sources */,
 				BE22140A249C595900EC1EDD /* sysfile.c in Sources */,
+				BECB3262249D1E1F00C4374A /* sem.c in Sources */,
 				BED0FEBF249BB51F008CF91D /* kart.c in Sources */,
 				BE2213FE249C590A00EC1EDD /* pagefile.c in Sources */,
 				BED0FF17249BB9E5008CF91D /* rsa.c in Sources */,
