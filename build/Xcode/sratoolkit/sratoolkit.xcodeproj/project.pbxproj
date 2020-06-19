@@ -143,6 +143,7 @@
 		BE83B844249BABA600F625B9 /* syscond.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B841249BABA500F625B9 /* syscond.c */; };
 		BE83B846249BAD5C00F625B9 /* syslock.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B845249BAD5C00F625B9 /* syslock.c */; };
 		BECB3243249C5EE800C4374A /* syspoll.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB3242249C5EE700C4374A /* syspoll.c */; };
+		BECB3245249C645600C4374A /* mmap.c in Sources */ = {isa = PBXBuildFile; fileRef = BECB3244249C645600C4374A /* mmap.c */; };
 		BED0FE9E249BB40A008CF91D /* manager.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FE9D249BB40A008CF91D /* manager.c */; };
 		BED0FEA8249BB474008CF91D /* cloud-mgr.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FEA2249BB474008CF91D /* cloud-mgr.c */; };
 		BED0FEA9249BB474008CF91D /* cloud-cmn.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FEA3249BB474008CF91D /* cloud-cmn.c */; };
@@ -415,6 +416,7 @@
 		BE83B841249BABA500F625B9 /* syscond.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syscond.c; path = libs/kproc/unix/syscond.c; sourceTree = "<group>"; };
 		BE83B845249BAD5C00F625B9 /* syslock.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syslock.c; path = libs/kproc/bsd/syslock.c; sourceTree = "<group>"; };
 		BECB3242249C5EE700C4374A /* syspoll.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syspoll.c; path = libs/kns/mac/syspoll.c; sourceTree = "<group>"; };
+		BECB3244249C645600C4374A /* mmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mmap.c; path = libs/kfs/mmap.c; sourceTree = "<group>"; };
 		BED0FE9B249BB13C008CF91D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/kns/Makefile; sourceTree = "<group>"; };
 		BED0FE9D249BB40A008CF91D /* manager.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = manager.c; path = libs/kns/manager.c; sourceTree = "<group>"; };
 		BED0FEA0249BB43D008CF91D /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/cloud/Makefile; sourceTree = "<group>"; };
@@ -798,6 +800,7 @@
 				BE2213B3249C590900EC1EDD /* logfile.c */,
 				BE2213C3249C590A00EC1EDD /* lru_cache.c */,
 				BE2213CF249C590A00EC1EDD /* md5.c */,
+				BECB3244249C645600C4374A /* mmap.c */,
 				BE2213CD249C590A00EC1EDD /* nullfile.c */,
 				BE2213D2249C590A00EC1EDD /* pagefile.c */,
 				BE2213AE249C590900EC1EDD /* pmem.c */,
@@ -1268,6 +1271,7 @@
 				BE83B817249AA3B300F625B9 /* syslog.c in Sources */,
 				BED0FF5A249BC765008CF91D /* sysmgr.c in Sources */,
 				BE221420249C5B1F00EC1EDD /* http-file.c in Sources */,
+				BECB3245249C645600C4374A /* mmap.c in Sources */,
 				BE83B7D7249A85AE00F625B9 /* pbstree.c in Sources */,
 				BED0FF2F249BB9E5008CF91D /* base64.c in Sources */,
 				BE221423249C5C0900EC1EDD /* base64.c in Sources */,
