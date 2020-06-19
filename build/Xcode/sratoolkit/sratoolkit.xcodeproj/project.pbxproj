@@ -7,6 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE2213D6249C590A00EC1EDD /* buffile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213AA249C590900EC1EDD /* buffile.c */; };
+		BE2213D7249C590A00EC1EDD /* poolpages.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213AB249C590900EC1EDD /* poolpages.c */; };
+		BE2213D8249C590A00EC1EDD /* tocdir.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213AC249C590900EC1EDD /* tocdir.c */; };
+		BE2213D9249C590A00EC1EDD /* tocentry.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213AD249C590900EC1EDD /* tocentry.c */; };
+		BE2213DA249C590A00EC1EDD /* pmem.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213AE249C590900EC1EDD /* pmem.c */; };
+		BE2213DB249C590A00EC1EDD /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213AF249C590900EC1EDD /* file.c */; };
+		BE2213DC249C590A00EC1EDD /* arc.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213B0249C590900EC1EDD /* arc.c */; };
+		BE2213DD249C590A00EC1EDD /* readheadfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213B1249C590900EC1EDD /* readheadfile.c */; };
+		BE2213DE249C590A00EC1EDD /* report.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213B2249C590900EC1EDD /* report.c */; };
+		BE2213DF249C590A00EC1EDD /* logfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213B3249C590900EC1EDD /* logfile.c */; };
+		BE2213E0249C590A00EC1EDD /* tar.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213B4249C590900EC1EDD /* tar.c */; };
+		BE2213E1249C590A00EC1EDD /* from_to_namelist.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213B5249C590900EC1EDD /* from_to_namelist.c */; };
+		BE2213E2249C590A00EC1EDD /* bzip.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213B6249C590900EC1EDD /* bzip.c */; };
+		BE2213E3249C590A00EC1EDD /* crc32.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213B7249C590900EC1EDD /* crc32.c */; };
+		BE2213E4249C590A00EC1EDD /* callback_file.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213B8249C590900EC1EDD /* callback_file.c */; };
+		BE2213E5249C590A00EC1EDD /* cacheteefile2.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213B9249C590900EC1EDD /* cacheteefile2.c */; };
+		BE2213E6249C590A00EC1EDD /* tocfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213BA249C590A00EC1EDD /* tocfile.c */; };
+		BE2213E7249C590A00EC1EDD /* arrayfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213BB249C590A00EC1EDD /* arrayfile.c */; };
+		BE2213E8249C590A00EC1EDD /* appendfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213BC249C590A00EC1EDD /* appendfile.c */; };
+		BE2213E9249C590A00EC1EDD /* lockfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213BD249C590A00EC1EDD /* lockfile.c */; };
+		BE2213EA249C590A00EC1EDD /* recorder.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213BE249C590A00EC1EDD /* recorder.c */; };
+		BE2213EB249C590A00EC1EDD /* remove-file-task.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213BF249C590A00EC1EDD /* remove-file-task.c */; };
+		BE2213EC249C590A00EC1EDD /* cacheteefile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213C0249C590A00EC1EDD /* cacheteefile.c */; };
+		BE2213ED249C590A00EC1EDD /* directory.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213C1249C590A00EC1EDD /* directory.c */; };
+		BE2213EE249C590A00EC1EDD /* gzip.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213C2249C590A00EC1EDD /* gzip.c */; };
+		BE2213EF249C590A00EC1EDD /* lru_cache.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213C3249C590A00EC1EDD /* lru_cache.c */; };
+		BE2213F0249C590A00EC1EDD /* dir_test.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213C4249C590A00EC1EDD /* dir_test.c */; };
+		BE2213F1249C590A00EC1EDD /* buffile-read.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213C5249C590A00EC1EDD /* buffile-read.c */; };
+		BE2213F2249C590A00EC1EDD /* quickmount.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213C6249C590A00EC1EDD /* quickmount.c */; };
+		BE2213F3249C590A00EC1EDD /* ramfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213C7249C590A00EC1EDD /* ramfile.c */; };
+		BE2213F4249C590A00EC1EDD /* rrcachedfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213C8249C590A00EC1EDD /* rrcachedfile.c */; };
+		BE2213F5249C590A00EC1EDD /* teefile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213C9249C590A00EC1EDD /* teefile.c */; };
+		BE2213F6249C590A00EC1EDD /* buffile-write.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213CA249C590A00EC1EDD /* buffile-write.c */; };
+		BE2213F7249C590A00EC1EDD /* limitfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213CB249C590A00EC1EDD /* limitfile.c */; };
+		BE2213F8249C590A00EC1EDD /* countfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213CC249C590A00EC1EDD /* countfile.c */; };
+		BE2213F9249C590A00EC1EDD /* nullfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213CD249C590A00EC1EDD /* nullfile.c */; };
+		BE2213FA249C590A00EC1EDD /* chunk-reader.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213CE249C590A00EC1EDD /* chunk-reader.c */; };
+		BE2213FB249C590A00EC1EDD /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213CF249C590A00EC1EDD /* md5.c */; };
+		BE2213FC249C590A00EC1EDD /* sra.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213D0249C590A00EC1EDD /* sra.c */; };
+		BE2213FD249C590A00EC1EDD /* cacheteefile3.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213D1249C590A00EC1EDD /* cacheteefile3.c */; };
+		BE2213FE249C590A00EC1EDD /* pagefile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213D2249C590A00EC1EDD /* pagefile.c */; };
+		BE2213FF249C590A00EC1EDD /* subfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213D3249C590A00EC1EDD /* subfile.c */; };
+		BE221400249C590A00EC1EDD /* extendable-ramfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213D4249C590A00EC1EDD /* extendable-ramfile.c */; };
+		BE221401249C590A00EC1EDD /* toc.c in Sources */ = {isa = PBXBuildFile; fileRef = BE2213D5249C590A00EC1EDD /* toc.c */; };
+		BE221407249C595900EC1EDD /* sysmmap.c in Sources */ = {isa = PBXBuildFile; fileRef = BE221402249C595900EC1EDD /* sysmmap.c */; };
+		BE221408249C595900EC1EDD /* sysdll.c in Sources */ = {isa = PBXBuildFile; fileRef = BE221403249C595900EC1EDD /* sysdll.c */; };
+		BE221409249C595900EC1EDD /* sysdir.c in Sources */ = {isa = PBXBuildFile; fileRef = BE221404249C595900EC1EDD /* sysdir.c */; };
+		BE22140A249C595900EC1EDD /* sysfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE221405249C595900EC1EDD /* sysfile.c */; };
+		BE22140B249C595900EC1EDD /* syslockfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE221406249C595900EC1EDD /* syslockfile.c */; };
 		BE83B73B249954C900F625B9 /* toolkit.vers.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B736249954C900F625B9 /* toolkit.vers.c */; };
 		BE83B73D249954C900F625B9 /* toolkit.vers.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B73A249954C900F625B9 /* toolkit.vers.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE83B77F249959F600F625B9 /* log-xml.h in Headers */ = {isa = PBXBuildFile; fileRef = BE83B776249959F600F625B9 /* log-xml.h */; };
@@ -73,15 +122,8 @@
 		BE83B81D249AA49100F625B9 /* report-klib.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B81C249AA49100F625B9 /* report-klib.c */; };
 		BE83B81F249AA4D100F625B9 /* misc.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B81E249AA4D000F625B9 /* misc.c */; };
 		BE83B821249AA4F700F625B9 /* data-buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B820249AA4F700F625B9 /* data-buffer.c */; };
-		BE83B825249AA59700F625B9 /* directory.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B824249AA59700F625B9 /* directory.c */; };
-		BE83B827249AA5DB00F625B9 /* sysdir.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B826249AA5DB00F625B9 /* sysdir.c */; };
-		BE83B829249AB6CA00F625B9 /* file.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B828249AB6CA00F625B9 /* file.c */; };
-		BE83B82B249AB75900F625B9 /* sysfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B82A249AB75900F625B9 /* sysfile.c */; };
 		BE83B82D249AB7D000F625B9 /* refcount.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B82C249AB7D000F625B9 /* refcount.c */; };
-		BE83B82F249ABA2B00F625B9 /* chunk-reader.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B82E249ABA2B00F625B9 /* chunk-reader.c */; };
-		BE83B831249ABA6100F625B9 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B830249ABA6100F625B9 /* md5.c */; };
 		BE83B833249ABA9200F625B9 /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B832249ABA9200F625B9 /* md5.c */; };
-		BE83B835249ABB1300F625B9 /* report.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B834249ABB1300F625B9 /* report.c */; };
 		BE83B83A249BAA7F00F625B9 /* task.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B839249BAA7F00F625B9 /* task.c */; };
 		BE83B83C249BAA9200F625B9 /* procmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B83B249BAA9200F625B9 /* procmgr.c */; };
 		BE83B83E249BAAA600F625B9 /* sysmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = BE83B83D249BAAA600F625B9 /* sysmgr.c */; };
@@ -164,11 +206,6 @@
 		BED0FF39249BB9E5008CF91D /* ccm.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FF00249BB9E5008CF91D /* ccm.c */; };
 		BED0FF3A249BB9E5008CF91D /* md4.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FF01249BB9E5008CF91D /* md4.c */; };
 		BED0FF3B249BB9E5008CF91D /* pk_wrap.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FF02249BB9E5008CF91D /* pk_wrap.c */; };
-		BED0FF3D249BC583008CF91D /* sysdll.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FF3C249BC583008CF91D /* sysdll.c */; };
-		BED0FF52249BC5EF008CF91D /* mmap.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FF48249BC5EF008CF91D /* mmap.c */; };
-		BED0FF54249BC606008CF91D /* sysmmap.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FF53249BC606008CF91D /* sysmmap.c */; };
-		BED0FF56249BC6AE008CF91D /* gzip.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FF55249BC6AE008CF91D /* gzip.c */; };
-		BED0FF58249BC6D4008CF91D /* subfile.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FF57249BC6D4008CF91D /* subfile.c */; };
 		BED0FF5A249BC765008CF91D /* sysmgr.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FF59249BC765008CF91D /* sysmgr.c */; };
 		BED0FF5D249BC7D6008CF91D /* sysendpoint.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FF5B249BC7D6008CF91D /* sysendpoint.c */; };
 		BED0FF5E249BC7D6008CF91D /* syspoll.c in Sources */ = {isa = PBXBuildFile; fileRef = BED0FF5C249BC7D6008CF91D /* syspoll.c */; };
@@ -213,6 +250,55 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE2213AA249C590900EC1EDD /* buffile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = buffile.c; path = libs/kfs/buffile.c; sourceTree = "<group>"; };
+		BE2213AB249C590900EC1EDD /* poolpages.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = poolpages.c; path = libs/kfs/poolpages.c; sourceTree = "<group>"; };
+		BE2213AC249C590900EC1EDD /* tocdir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tocdir.c; path = libs/kfs/tocdir.c; sourceTree = "<group>"; };
+		BE2213AD249C590900EC1EDD /* tocentry.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tocentry.c; path = libs/kfs/tocentry.c; sourceTree = "<group>"; };
+		BE2213AE249C590900EC1EDD /* pmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pmem.c; path = libs/kfs/pmem.c; sourceTree = "<group>"; };
+		BE2213AF249C590900EC1EDD /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = file.c; path = libs/kfs/file.c; sourceTree = "<group>"; };
+		BE2213B0249C590900EC1EDD /* arc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = arc.c; path = libs/kfs/arc.c; sourceTree = "<group>"; };
+		BE2213B1249C590900EC1EDD /* readheadfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = readheadfile.c; path = libs/kfs/readheadfile.c; sourceTree = "<group>"; };
+		BE2213B2249C590900EC1EDD /* report.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = report.c; path = libs/kfs/report.c; sourceTree = "<group>"; };
+		BE2213B3249C590900EC1EDD /* logfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = logfile.c; path = libs/kfs/logfile.c; sourceTree = "<group>"; };
+		BE2213B4249C590900EC1EDD /* tar.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tar.c; path = libs/kfs/tar.c; sourceTree = "<group>"; };
+		BE2213B5249C590900EC1EDD /* from_to_namelist.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = from_to_namelist.c; path = libs/kfs/from_to_namelist.c; sourceTree = "<group>"; };
+		BE2213B6249C590900EC1EDD /* bzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = bzip.c; path = libs/kfs/bzip.c; sourceTree = "<group>"; };
+		BE2213B7249C590900EC1EDD /* crc32.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = crc32.c; path = libs/kfs/crc32.c; sourceTree = "<group>"; };
+		BE2213B8249C590900EC1EDD /* callback_file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = callback_file.c; path = libs/kfs/callback_file.c; sourceTree = "<group>"; };
+		BE2213B9249C590900EC1EDD /* cacheteefile2.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cacheteefile2.c; path = libs/kfs/cacheteefile2.c; sourceTree = "<group>"; };
+		BE2213BA249C590A00EC1EDD /* tocfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = tocfile.c; path = libs/kfs/tocfile.c; sourceTree = "<group>"; };
+		BE2213BB249C590A00EC1EDD /* arrayfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = arrayfile.c; path = libs/kfs/arrayfile.c; sourceTree = "<group>"; };
+		BE2213BC249C590A00EC1EDD /* appendfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = appendfile.c; path = libs/kfs/appendfile.c; sourceTree = "<group>"; };
+		BE2213BD249C590A00EC1EDD /* lockfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lockfile.c; path = libs/kfs/lockfile.c; sourceTree = "<group>"; };
+		BE2213BE249C590A00EC1EDD /* recorder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = recorder.c; path = libs/kfs/recorder.c; sourceTree = "<group>"; };
+		BE2213BF249C590A00EC1EDD /* remove-file-task.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "remove-file-task.c"; path = "libs/kfs/remove-file-task.c"; sourceTree = "<group>"; };
+		BE2213C0249C590A00EC1EDD /* cacheteefile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cacheteefile.c; path = libs/kfs/cacheteefile.c; sourceTree = "<group>"; };
+		BE2213C1249C590A00EC1EDD /* directory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = directory.c; path = libs/kfs/directory.c; sourceTree = "<group>"; };
+		BE2213C2249C590A00EC1EDD /* gzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gzip.c; path = libs/kfs/gzip.c; sourceTree = "<group>"; };
+		BE2213C3249C590A00EC1EDD /* lru_cache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = lru_cache.c; path = libs/kfs/lru_cache.c; sourceTree = "<group>"; };
+		BE2213C4249C590A00EC1EDD /* dir_test.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = dir_test.c; path = libs/kfs/dir_test.c; sourceTree = "<group>"; };
+		BE2213C5249C590A00EC1EDD /* buffile-read.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "buffile-read.c"; path = "libs/kfs/buffile-read.c"; sourceTree = "<group>"; };
+		BE2213C6249C590A00EC1EDD /* quickmount.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = quickmount.c; path = libs/kfs/quickmount.c; sourceTree = "<group>"; };
+		BE2213C7249C590A00EC1EDD /* ramfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ramfile.c; path = libs/kfs/ramfile.c; sourceTree = "<group>"; };
+		BE2213C8249C590A00EC1EDD /* rrcachedfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = rrcachedfile.c; path = libs/kfs/rrcachedfile.c; sourceTree = "<group>"; };
+		BE2213C9249C590A00EC1EDD /* teefile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = teefile.c; path = libs/kfs/teefile.c; sourceTree = "<group>"; };
+		BE2213CA249C590A00EC1EDD /* buffile-write.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "buffile-write.c"; path = "libs/kfs/buffile-write.c"; sourceTree = "<group>"; };
+		BE2213CB249C590A00EC1EDD /* limitfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = limitfile.c; path = libs/kfs/limitfile.c; sourceTree = "<group>"; };
+		BE2213CC249C590A00EC1EDD /* countfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = countfile.c; path = libs/kfs/countfile.c; sourceTree = "<group>"; };
+		BE2213CD249C590A00EC1EDD /* nullfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = nullfile.c; path = libs/kfs/nullfile.c; sourceTree = "<group>"; };
+		BE2213CE249C590A00EC1EDD /* chunk-reader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "chunk-reader.c"; path = "libs/kfs/chunk-reader.c"; sourceTree = "<group>"; };
+		BE2213CF249C590A00EC1EDD /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = md5.c; path = libs/kfs/md5.c; sourceTree = "<group>"; };
+		BE2213D0249C590A00EC1EDD /* sra.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sra.c; path = libs/kfs/sra.c; sourceTree = "<group>"; };
+		BE2213D1249C590A00EC1EDD /* cacheteefile3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = cacheteefile3.c; path = libs/kfs/cacheteefile3.c; sourceTree = "<group>"; };
+		BE2213D2249C590A00EC1EDD /* pagefile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pagefile.c; path = libs/kfs/pagefile.c; sourceTree = "<group>"; };
+		BE2213D3249C590A00EC1EDD /* subfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = subfile.c; path = libs/kfs/subfile.c; sourceTree = "<group>"; };
+		BE2213D4249C590A00EC1EDD /* extendable-ramfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "extendable-ramfile.c"; path = "libs/kfs/extendable-ramfile.c"; sourceTree = "<group>"; };
+		BE2213D5249C590A00EC1EDD /* toc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = toc.c; path = libs/kfs/toc.c; sourceTree = "<group>"; };
+		BE221402249C595900EC1EDD /* sysmmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysmmap.c; path = libs/kfs/unix/sysmmap.c; sourceTree = "<group>"; };
+		BE221403249C595900EC1EDD /* sysdll.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysdll.c; path = libs/kfs/unix/sysdll.c; sourceTree = "<group>"; };
+		BE221404249C595900EC1EDD /* sysdir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysdir.c; path = libs/kfs/unix/sysdir.c; sourceTree = "<group>"; };
+		BE221405249C595900EC1EDD /* sysfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysfile.c; path = libs/kfs/unix/sysfile.c; sourceTree = "<group>"; };
+		BE221406249C595900EC1EDD /* syslockfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syslockfile.c; path = libs/kfs/unix/syslockfile.c; sourceTree = "<group>"; };
 		BE83B7272499538200F625B9 /* libncbi-vdb.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libncbi-vdb.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE83B7312499545B00F625B9 /* libtk-version.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libtk-version.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE83B736249954C900F625B9 /* toolkit.vers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = toolkit.vers.c; sourceTree = "<group>"; };
@@ -297,15 +383,8 @@
 		BE83B81E249AA4D000F625B9 /* misc.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = misc.c; path = libs/klib/unix/misc.c; sourceTree = "<group>"; };
 		BE83B820249AA4F700F625B9 /* data-buffer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "data-buffer.c"; path = "libs/klib/data-buffer.c"; sourceTree = "<group>"; };
 		BE83B823249AA54500F625B9 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/kfs/Makefile; sourceTree = "<group>"; };
-		BE83B824249AA59700F625B9 /* directory.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = directory.c; path = libs/kfs/directory.c; sourceTree = "<group>"; };
-		BE83B826249AA5DB00F625B9 /* sysdir.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysdir.c; path = libs/kfs/unix/sysdir.c; sourceTree = "<group>"; };
-		BE83B828249AB6CA00F625B9 /* file.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = file.c; path = libs/kfs/file.c; sourceTree = "<group>"; };
-		BE83B82A249AB75900F625B9 /* sysfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysfile.c; path = libs/kfs/unix/sysfile.c; sourceTree = "<group>"; };
 		BE83B82C249AB7D000F625B9 /* refcount.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = refcount.c; path = libs/klib/refcount.c; sourceTree = "<group>"; };
-		BE83B82E249ABA2B00F625B9 /* chunk-reader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = "chunk-reader.c"; path = "libs/kfs/chunk-reader.c"; sourceTree = "<group>"; };
-		BE83B830249ABA6100F625B9 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = md5.c; path = libs/kfs/md5.c; sourceTree = "<group>"; };
 		BE83B832249ABA9200F625B9 /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = md5.c; path = libs/klib/md5.c; sourceTree = "<group>"; };
-		BE83B834249ABB1300F625B9 /* report.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = report.c; path = libs/kfs/report.c; sourceTree = "<group>"; };
 		BE83B837249BAA5B00F625B9 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; name = Makefile; path = libs/kproc/Makefile; sourceTree = "<group>"; };
 		BE83B839249BAA7F00F625B9 /* task.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = task.c; path = libs/kproc/task.c; sourceTree = "<group>"; };
 		BE83B83B249BAA9200F625B9 /* procmgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = procmgr.c; path = libs/kproc/procmgr.c; sourceTree = "<group>"; };
@@ -393,11 +472,6 @@
 		BED0FF00249BB9E5008CF91D /* ccm.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = ccm.c; path = libs/ext/mbedtls/ccm.c; sourceTree = "<group>"; };
 		BED0FF01249BB9E5008CF91D /* md4.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = md4.c; path = libs/ext/mbedtls/md4.c; sourceTree = "<group>"; };
 		BED0FF02249BB9E5008CF91D /* pk_wrap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = pk_wrap.c; path = libs/ext/mbedtls/pk_wrap.c; sourceTree = "<group>"; };
-		BED0FF3C249BC583008CF91D /* sysdll.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysdll.c; path = libs/kfs/unix/sysdll.c; sourceTree = "<group>"; };
-		BED0FF48249BC5EF008CF91D /* mmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = mmap.c; path = libs/kfs/mmap.c; sourceTree = "<group>"; };
-		BED0FF53249BC606008CF91D /* sysmmap.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysmmap.c; path = libs/kfs/unix/sysmmap.c; sourceTree = "<group>"; };
-		BED0FF55249BC6AE008CF91D /* gzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = gzip.c; path = libs/kfs/gzip.c; sourceTree = "<group>"; };
-		BED0FF57249BC6D4008CF91D /* subfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = subfile.c; path = libs/kfs/subfile.c; sourceTree = "<group>"; };
 		BED0FF59249BC765008CF91D /* sysmgr.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysmgr.c; path = libs/kns/unix/sysmgr.c; sourceTree = "<group>"; };
 		BED0FF5B249BC7D6008CF91D /* sysendpoint.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sysendpoint.c; path = libs/kns/mac/sysendpoint.c; sourceTree = "<group>"; };
 		BED0FF5C249BC7D6008CF91D /* syspoll.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = syspoll.c; path = libs/kns/mac/syspoll.c; sourceTree = "<group>"; };
@@ -673,18 +747,55 @@
 		BE83B822249AA53300F625B9 /* kfs */ = {
 			isa = PBXGroup;
 			children = (
-				BED0FF57249BC6D4008CF91D /* subfile.c */,
-				BED0FF55249BC6AE008CF91D /* gzip.c */,
-				BED0FF53249BC606008CF91D /* sysmmap.c */,
-				BED0FF48249BC5EF008CF91D /* mmap.c */,
-				BED0FF3C249BC583008CF91D /* sysdll.c */,
-				BE83B834249ABB1300F625B9 /* report.c */,
-				BE83B830249ABA6100F625B9 /* md5.c */,
-				BE83B82E249ABA2B00F625B9 /* chunk-reader.c */,
-				BE83B82A249AB75900F625B9 /* sysfile.c */,
-				BE83B828249AB6CA00F625B9 /* file.c */,
-				BE83B826249AA5DB00F625B9 /* sysdir.c */,
-				BE83B824249AA59700F625B9 /* directory.c */,
+				BE221404249C595900EC1EDD /* sysdir.c */,
+				BE221403249C595900EC1EDD /* sysdll.c */,
+				BE221405249C595900EC1EDD /* sysfile.c */,
+				BE221406249C595900EC1EDD /* syslockfile.c */,
+				BE221402249C595900EC1EDD /* sysmmap.c */,
+				BE2213BC249C590A00EC1EDD /* appendfile.c */,
+				BE2213B0249C590900EC1EDD /* arc.c */,
+				BE2213BB249C590A00EC1EDD /* arrayfile.c */,
+				BE2213C5249C590A00EC1EDD /* buffile-read.c */,
+				BE2213CA249C590A00EC1EDD /* buffile-write.c */,
+				BE2213AA249C590900EC1EDD /* buffile.c */,
+				BE2213B6249C590900EC1EDD /* bzip.c */,
+				BE2213C0249C590A00EC1EDD /* cacheteefile.c */,
+				BE2213B9249C590900EC1EDD /* cacheteefile2.c */,
+				BE2213D1249C590A00EC1EDD /* cacheteefile3.c */,
+				BE2213B8249C590900EC1EDD /* callback_file.c */,
+				BE2213CE249C590A00EC1EDD /* chunk-reader.c */,
+				BE2213CC249C590A00EC1EDD /* countfile.c */,
+				BE2213B7249C590900EC1EDD /* crc32.c */,
+				BE2213C4249C590A00EC1EDD /* dir_test.c */,
+				BE2213C1249C590A00EC1EDD /* directory.c */,
+				BE2213D4249C590A00EC1EDD /* extendable-ramfile.c */,
+				BE2213AF249C590900EC1EDD /* file.c */,
+				BE2213B5249C590900EC1EDD /* from_to_namelist.c */,
+				BE2213C2249C590A00EC1EDD /* gzip.c */,
+				BE2213CB249C590A00EC1EDD /* limitfile.c */,
+				BE2213BD249C590A00EC1EDD /* lockfile.c */,
+				BE2213B3249C590900EC1EDD /* logfile.c */,
+				BE2213C3249C590A00EC1EDD /* lru_cache.c */,
+				BE2213CF249C590A00EC1EDD /* md5.c */,
+				BE2213CD249C590A00EC1EDD /* nullfile.c */,
+				BE2213D2249C590A00EC1EDD /* pagefile.c */,
+				BE2213AE249C590900EC1EDD /* pmem.c */,
+				BE2213AB249C590900EC1EDD /* poolpages.c */,
+				BE2213C6249C590A00EC1EDD /* quickmount.c */,
+				BE2213C7249C590A00EC1EDD /* ramfile.c */,
+				BE2213B1249C590900EC1EDD /* readheadfile.c */,
+				BE2213BE249C590A00EC1EDD /* recorder.c */,
+				BE2213BF249C590A00EC1EDD /* remove-file-task.c */,
+				BE2213B2249C590900EC1EDD /* report.c */,
+				BE2213C8249C590A00EC1EDD /* rrcachedfile.c */,
+				BE2213D0249C590A00EC1EDD /* sra.c */,
+				BE2213D3249C590A00EC1EDD /* subfile.c */,
+				BE2213B4249C590900EC1EDD /* tar.c */,
+				BE2213C9249C590A00EC1EDD /* teefile.c */,
+				BE2213D5249C590A00EC1EDD /* toc.c */,
+				BE2213AC249C590900EC1EDD /* tocdir.c */,
+				BE2213AD249C590900EC1EDD /* tocentry.c */,
+				BE2213BA249C590A00EC1EDD /* tocfile.c */,
 				BE83B823249AA54500F625B9 /* Makefile */,
 			);
 			name = kfs;
@@ -997,6 +1108,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED0FF2C249BB9E5008CF91D /* xtea.c in Sources */,
+				BE2213EB249C590A00EC1EDD /* remove-file-task.c in Sources */,
 				BED0FF03249BB9E5008CF91D /* md5.c in Sources */,
 				BE83B81D249AA49100F625B9 /* report-klib.c in Sources */,
 				BED0FEBE249BB51F008CF91D /* report-kfg.c in Sources */,
@@ -1004,20 +1116,25 @@
 				BED0FF8B249BD908008CF91D /* x509write_crt.c in Sources */,
 				BE83B7F3249A9B9600F625B9 /* bstpersist.c in Sources */,
 				BED0FF0D249BB9E5008CF91D /* version.c in Sources */,
+				BE2213E6249C590A00EC1EDD /* tocfile.c in Sources */,
 				BE83B7FD249A9DDE00F625B9 /* status.c in Sources */,
 				BE83B846249BAD5C00F625B9 /* syslock.c in Sources */,
-				BE83B827249AA5DB00F625B9 /* sysdir.c in Sources */,
+				BE2213DC249C590A00EC1EDD /* arc.c in Sources */,
 				BE83B83A249BAA7F00F625B9 /* task.c in Sources */,
+				BE2213F3249C590A00EC1EDD /* ramfile.c in Sources */,
 				BED0FF20249BB9E5008CF91D /* pk.c in Sources */,
 				BED0FF89249BD908008CF91D /* x509write_csr.c in Sources */,
-				BE83B82F249ABA2B00F625B9 /* chunk-reader.c in Sources */,
 				BED0FF38249BB9E5008CF91D /* version_features.c in Sources */,
+				BE2213EE249C590A00EC1EDD /* gzip.c in Sources */,
 				BE83B806249AA0F300F625B9 /* status-rc-strings.c in Sources */,
+				BE2213E2249C590A00EC1EDD /* bzip.c in Sources */,
+				BE2213DD249C590A00EC1EDD /* readheadfile.c in Sources */,
 				BED0FEC3249BB51F008CF91D /* config.c in Sources */,
+				BE22140A249C595900EC1EDD /* sysfile.c in Sources */,
 				BED0FEBF249BB51F008CF91D /* kart.c in Sources */,
+				BE2213FE249C590A00EC1EDD /* pagefile.c in Sources */,
 				BED0FF17249BB9E5008CF91D /* rsa.c in Sources */,
-				BE83B831249ABA6100F625B9 /* md5.c in Sources */,
-				BED0FF58249BC6D4008CF91D /* subfile.c in Sources */,
+				BE2213F9249C590A00EC1EDD /* nullfile.c in Sources */,
 				BED0FF77249BD8B9008CF91D /* ssl_cache.c in Sources */,
 				BE83B819249AA42200F625B9 /* systime.c in Sources */,
 				BED0FF1B249BB9E5008CF91D /* md2.c in Sources */,
@@ -1025,8 +1142,14 @@
 				BE83B7C9249A84A000F625B9 /* token.c in Sources */,
 				BE83B7F7249A9D1E00F625B9 /* debug.c in Sources */,
 				BED0FF0C249BB9E5008CF91D /* asn1write.c in Sources */,
+				BE2213E0249C590A00EC1EDD /* tar.c in Sources */,
 				BED0FF35249BB9E5008CF91D /* padlock.c in Sources */,
+				BE2213DA249C590A00EC1EDD /* pmem.c in Sources */,
+				BE2213E1249C590A00EC1EDD /* from_to_namelist.c in Sources */,
+				BE221400249C590A00EC1EDD /* extendable-ramfile.c in Sources */,
+				BE2213D9249C590A00EC1EDD /* tocentry.c in Sources */,
 				BED0FF06249BB9E5008CF91D /* error.c in Sources */,
+				BE2213E7249C590A00EC1EDD /* arrayfile.c in Sources */,
 				BE83B7CF249A84D200F625B9 /* namelist.c in Sources */,
 				BED0FF7B249BD8B9008CF91D /* debug.c in Sources */,
 				BED0FF92249BD9F1008CF91D /* http-request.c in Sources */,
@@ -1044,11 +1167,14 @@
 				BED0FEAA249BB474008CF91D /* aws-auth.c in Sources */,
 				BED0FF8C249BD908008CF91D /* x509.c in Sources */,
 				BED0FF2A249BB9E5008CF91D /* blowfish.c in Sources */,
+				BE2213FD249C590A00EC1EDD /* cacheteefile3.c in Sources */,
 				BE83B811249AA21900F625B9 /* ksort.c in Sources */,
 				BED0FF29249BB9E5008CF91D /* camellia.c in Sources */,
 				BED0FF16249BB9E5008CF91D /* ecjpake.c in Sources */,
+				BE221401249C590A00EC1EDD /* toc.c in Sources */,
 				BED0FF8A249BD908008CF91D /* x509_crt.c in Sources */,
 				BED0FF08249BB9E5008CF91D /* ecdsa.c in Sources */,
+				BE2213F1249C590A00EC1EDD /* buffile-read.c in Sources */,
 				BE83B802249A9F4400F625B9 /* pbstree-native.c in Sources */,
 				BED0FF8E249BD908008CF91D /* x509_csr.c in Sources */,
 				BED0FF78249BD8B9008CF91D /* ssl_cli.c in Sources */,
@@ -1064,11 +1190,17 @@
 				BED0FF66249BC917008CF91D /* http-client.c in Sources */,
 				BED0FF25249BB9E5008CF91D /* cipher.c in Sources */,
 				BE83B7FB249A9DB100F625B9 /* out.c in Sources */,
+				BE2213F6249C590A00EC1EDD /* buffile-write.c in Sources */,
+				BE2213DF249C590A00EC1EDD /* logfile.c in Sources */,
 				BED0FF1E249BB9E5008CF91D /* rsa_internal.c in Sources */,
 				BE83B807249AA0F300F625B9 /* status-rc.c in Sources */,
+				BE2213D8249C590A00EC1EDD /* tocdir.c in Sources */,
 				BED0FF6C249BD830008CF91D /* tls.c in Sources */,
+				BE2213F2249C590A00EC1EDD /* quickmount.c in Sources */,
 				BED0FF18249BB9E5008CF91D /* ctr_drbg.c in Sources */,
+				BE2213F0249C590A00EC1EDD /* dir_test.c in Sources */,
 				BED0FF30249BB9E5008CF91D /* chachapoly.c in Sources */,
+				BE2213F8249C590A00EC1EDD /* countfile.c in Sources */,
 				BE83B844249BABA600F625B9 /* syscond.c in Sources */,
 				BED0FF36249BB9E5008CF91D /* sha1.c in Sources */,
 				BE83B81F249AA4D100F625B9 /* misc.c in Sources */,
@@ -1078,7 +1210,6 @@
 				BED0FF0B249BB9E5008CF91D /* sha256.c in Sources */,
 				BE83B821249AA4F700F625B9 /* data-buffer.c in Sources */,
 				BED0FF87249BD908008CF91D /* certs.c in Sources */,
-				BE83B835249ABB1300F625B9 /* report.c in Sources */,
 				BED0FF21249BB9E5008CF91D /* oid.c in Sources */,
 				BED0FF28249BB9E5008CF91D /* pem.c in Sources */,
 				BE83B7CD249A84D200F625B9 /* container.c in Sources */,
@@ -1086,54 +1217,62 @@
 				BE83B815249AA37700F625B9 /* printf.c in Sources */,
 				BE83B7D4249A850700F625B9 /* vector_namelist.c in Sources */,
 				BED0FF6A249BCA93008CF91D /* stream.c in Sources */,
+				BE22140B249C595900EC1EDD /* syslockfile.c in Sources */,
 				BED0FEA9249BB474008CF91D /* cloud-cmn.c in Sources */,
 				BE83B83E249BAAA600F625B9 /* sysmgr.c in Sources */,
-				BE83B829249AB6CA00F625B9 /* file.c in Sources */,
 				BE83B813249AA26500F625B9 /* qsort.c in Sources */,
+				BE221408249C595900EC1EDD /* sysdll.c in Sources */,
+				BE2213FC249C590A00EC1EDD /* sra.c in Sources */,
+				BE2213DB249C590A00EC1EDD /* file.c in Sources */,
 				BE83B7D5249A850700F625B9 /* all-vdb-version.c in Sources */,
 				BE83B842249BABA600F625B9 /* systimeout.c in Sources */,
+				BE2213ED249C590A00EC1EDD /* directory.c in Sources */,
+				BE2213FF249C590A00EC1EDD /* subfile.c in Sources */,
+				BE221409249C595900EC1EDD /* sysdir.c in Sources */,
 				BE83B817249AA3B300F625B9 /* syslog.c in Sources */,
 				BED0FF5A249BC765008CF91D /* sysmgr.c in Sources */,
 				BE83B7D7249A85AE00F625B9 /* pbstree.c in Sources */,
 				BED0FF2F249BB9E5008CF91D /* base64.c in Sources */,
 				BED0FF62249BC7E5008CF91D /* sysstream.c in Sources */,
 				BED0FF13249BB9E5008CF91D /* aesni.c in Sources */,
-				BE83B82B249AB75900F625B9 /* sysfile.c in Sources */,
 				BED0FEBD249BB51F008CF91D /* properties.c in Sources */,
-				BED0FF54249BC606008CF91D /* sysmmap.c in Sources */,
 				BED0FF32249BB9E5008CF91D /* gcm.c in Sources */,
 				BED0FF24249BB9E5008CF91D /* pkwrite.c in Sources */,
+				BE2213E9249C590A00EC1EDD /* lockfile.c in Sources */,
 				BED0FEC5249BB51F008CF91D /* docker.c in Sources */,
 				BED0FF07249BB9E5008CF91D /* md.c in Sources */,
 				BE83B7BD249A846700F625B9 /* text.c in Sources */,
 				BED0FF64249BC8E8008CF91D /* proxy.c in Sources */,
 				BE83B803249A9F4400F625B9 /* pbstree-swapped.c in Sources */,
-				BED0FF56249BC6AE008CF91D /* gzip.c in Sources */,
 				BED0FF86249BD908008CF91D /* pkcs11.c in Sources */,
 				BE83B80F249AA1EB00F625B9 /* bsearch.c in Sources */,
-				BED0FF3D249BC583008CF91D /* sysdll.c in Sources */,
 				BE83B7D3249A850700F625B9 /* trie.c in Sources */,
 				BED0FF31249BB9E5008CF91D /* ripemd160.c in Sources */,
 				BED0FF76249BD8B9008CF91D /* ssl_srv.c in Sources */,
+				BE2213FA249C590A00EC1EDD /* chunk-reader.c in Sources */,
 				BE83B82D249AB7D000F625B9 /* refcount.c in Sources */,
 				BE83B7C8249A84A000F625B9 /* symtab.c in Sources */,
+				BE2213DE249C590A00EC1EDD /* report.c in Sources */,
 				BED0FF0E249BB9E5008CF91D /* entropy_poll.c in Sources */,
 				BED0FF0F249BB9E5008CF91D /* platform_util.c in Sources */,
 				BE83B7C2249A847C00F625B9 /* iso8859.c in Sources */,
 				BED0FF26249BB9E5008CF91D /* md_wrap.c in Sources */,
+				BE2213E4249C590A00EC1EDD /* callback_file.c in Sources */,
 				BED0FF2B249BB9E5008CF91D /* sha512.c in Sources */,
 				BED0FEC1249BB51F008CF91D /* config-lex.c in Sources */,
+				BE2213E5249C590A00EC1EDD /* cacheteefile2.c in Sources */,
 				BE83B80B249AA16000F625B9 /* rc-idx-tbl.c in Sources */,
 				BED0FF5E249BC7D6008CF91D /* syspoll.c in Sources */,
 				BED0FF91249BD9F1008CF91D /* stable-http-file.c in Sources */,
 				BED0FF19249BB9E5008CF91D /* havege.c in Sources */,
-				BE83B825249AA59700F625B9 /* directory.c in Sources */,
 				BE83B83C249BAA9200F625B9 /* procmgr.c in Sources */,
 				BE83B7FF249A9E3700F625B9 /* syswriter.c in Sources */,
 				BED0FF37249BB9E5008CF91D /* des.c in Sources */,
 				BED0FF09249BB9E5008CF91D /* cipher_wrap.c in Sources */,
 				BED0FF79249BD8B9008CF91D /* ssl_tls.c in Sources */,
 				BED0FF39249BB9E5008CF91D /* ccm.c in Sources */,
+				BE2213E3249C590A00EC1EDD /* crc32.c in Sources */,
+				BE2213D6249C590A00EC1EDD /* buffile.c in Sources */,
 				BE83B833249ABA9200F625B9 /* md5.c in Sources */,
 				BED0FEBC249BB51F008CF91D /* ngc.c in Sources */,
 				BED0FEC6249BB51F008CF91D /* repository.c in Sources */,
@@ -1141,21 +1280,30 @@
 				BED0FF14249BB9E5008CF91D /* timing.c in Sources */,
 				BED0FF1D249BB9E5008CF91D /* ecp.c in Sources */,
 				BED0FF04249BB9E5008CF91D /* pkcs5.c in Sources */,
+				BE2213EC249C590A00EC1EDD /* cacheteefile.c in Sources */,
 				BE83B7F5249A9CB400F625B9 /* writer.c in Sources */,
+				BE2213D7249C590A00EC1EDD /* poolpages.c in Sources */,
 				BED0FF15249BB9E5008CF91D /* arc4.c in Sources */,
+				BE2213F4249C590A00EC1EDD /* rrcachedfile.c in Sources */,
+				BE2213FB249C590A00EC1EDD /* md5.c in Sources */,
 				BED0FF0A249BB9E5008CF91D /* poly1305.c in Sources */,
-				BED0FF52249BC5EF008CF91D /* mmap.c in Sources */,
+				BE2213E8249C590A00EC1EDD /* appendfile.c in Sources */,
 				BED0FF1F249BB9E5008CF91D /* pkparse.c in Sources */,
 				BED0FF33249BB9E5008CF91D /* ecdh.c in Sources */,
 				BE83B81B249AA45B00F625B9 /* syserrcode.c in Sources */,
+				BE221407249C595900EC1EDD /* sysmmap.c in Sources */,
+				BE2213EF249C590A00EC1EDD /* lru_cache.c in Sources */,
 				BED0FF05249BB9E5008CF91D /* chacha20.c in Sources */,
 				BED0FF10249BB9E5008CF91D /* ecp_curves.c in Sources */,
 				BE83B7CE249A84D200F625B9 /* vector.c in Sources */,
 				BED0FF7A249BD8B9008CF91D /* ssl_ciphersuites.c in Sources */,
+				BE2213F7249C590A00EC1EDD /* limitfile.c in Sources */,
 				BE83B843249BABA600F625B9 /* systhread.c in Sources */,
+				BE2213EA249C590A00EC1EDD /* recorder.c in Sources */,
 				BED0FF3B249BB9E5008CF91D /* pk_wrap.c in Sources */,
 				BED0FF22249BB9E5008CF91D /* memory_buffer_alloc.c in Sources */,
 				BED0FE9E249BB40A008CF91D /* manager.c in Sources */,
+				BE2213F5249C590A00EC1EDD /* teefile.c in Sources */,
 				BE83B7C3249A847C00F625B9 /* iso8859-1.c in Sources */,
 				BED0FEAD249BB474008CF91D /* gcp.c in Sources */,
 				BE83B80D249AA19800F625B9 /* sra-release-version.c in Sources */,
